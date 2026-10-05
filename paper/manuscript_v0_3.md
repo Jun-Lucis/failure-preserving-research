@@ -108,7 +108,7 @@ A further caution follows from the agent-memory literature: preserved failure tr
 
 ## 3. A three-scale research architecture
 
-### 2.1 Micro scale: AI–external computation
+### 3.1 Micro scale: AI–external computation
 
 The smallest repeated unit is
 
@@ -138,7 +138,7 @@ inspectable reduces the number of hidden transformations between the hypothesis 
 
 The micro loop does not guarantee correctness. Its purpose is narrower: to make sustained internally consistent error harder by repeatedly forcing the current formulation into an executable form.
 
-### 2.2 Meso scale: prospective test and redesign
+### 3.2 Meso scale: prospective test and redesign
 
 The second scale operates across complete experiments rather than individual calculations.
 
@@ -170,7 +170,7 @@ P1 -> PASS after adjustment
 
 The distinction matters because a successful successor test otherwise risks concealing the degree to which the hypothesis changed after the data were seen.
 
-### 2.3 Macro scale: failure salvage and research memory
+### 3.3 Macro scale: failure salvage and research memory
 
 The third scale appears only after many experiments have accumulated.
 
