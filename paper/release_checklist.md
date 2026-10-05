@@ -64,13 +64,20 @@
 - [x] Preclaim gating section.
 - [x] Experimental-handoff boundary.
 - [x] Claim limitations.
-- [x] Add figure references in current Markdown manuscript layout; final PDF layout remains pending.
+- [x] Add figure references in Markdown and build final English/Japanese v1.0 PDFs.
 - [x] Terminology/claim-boundary consistency pass updated through manuscript v0.12; recheck once more at v1.0 freeze.
 - [x] External citation verification completed in `docs/reference_verification_v0_1.md`; corrected Henderson & Chambers attribution and narrowed adjacent-work novelty claim.
 - [x] Create manuscript v1.0 release candidate 1.
 - [x] Create manuscript v1.0 release candidate 2 after final provenance copyedit.
 - [x] Create Japanese reference translation aligned to v1.0 RC2.
 - [x] Freeze English manuscript v1.0 and aligned Japanese reference translation. License decision remains a repository/release metadata item.
+
+## PDF production
+
+- [x] Reproducible GitHub Actions PDF workflow completed successfully.
+- [x] English v1.0 PDF: 27 A4 pages.
+- [x] Japanese reference v1.0 PDF: 28 A4 pages.
+- [x] Visual QA of both PDFs completed from rendered page images; no clipping, broken glyphs, or figure overflow observed.
 
 ## Repository and reproducibility
 
@@ -83,16 +90,17 @@
 - [ ] Decide LICENSE.
 - [ ] Tag the exact Git release used for Zenodo.
 - [x] Release-package builder prepared (`tools/build_release_package.py`).
-- [ ] Create SHA-256 manifest for frozen release files.
-- [ ] Create compact release archive after PDF build and license decision.
+- [x] Create SHA-256 manifest for the English/Japanese PDF pair; full audit-package manifest remains for tagged release.
+- [x] Create compact PDF archive for delivery; full audit-package archive remains for tagged release.
 
 ## Zenodo
 
 - [x] Metadata draft.
+- [x] Zenodo-ready metadata v1.0 prepared in `paper/zenodo_metadata_v1_0.md`.
 - [x] Final title/subtitle selected for RC1: *Failure-Preserving AI-Assisted Research: A Nested Research Architecture for Individual Computational Science* / *A Longitudinal Case Study from Boundary Information Geometry*.
 - [ ] Decide license.
 - [x] Zenodo DOI assigned: `10.5281/zenodo.23171698`.
-- [ ] Upload frozen English/Japanese PDFs, manuscript sources, audit supplement, tables, and release manifest.
+- [ ] Upload frozen English/Japanese PDFs, manuscript sources, audit supplement, tables, and release manifest to Zenodo.
 - [ ] Add methodology GitHub and BIG GitHub as related resources.
 - [ ] Publish.
 - [x] Insert DOI into `CITATION.cff`.
