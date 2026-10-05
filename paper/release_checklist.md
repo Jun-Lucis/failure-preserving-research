@@ -1,7 +1,7 @@
 # Methodology preprint release checklist
 
 **Target:** first formal Zenodo preprint release  
-**Current manuscript:** `paper/manuscript_v0_5.md`
+**Current manuscript:** `paper/manuscript_v0_6.md`
 
 ## Scientific / methodological freeze
 
@@ -27,9 +27,9 @@
 - [x] Preserve caveat that this is not a causal productivity estimate.
 - [x] Expanded failure-salvage event ledger.
 - [x] Normalize source-to-action edge table.
-- [ ] Run strict FAIL/NOT_SUPPORTED-only sensitivity analysis.
-- [ ] Run opportunity-adjusted terminal-stage sensitivity analysis.
-- [ ] Test B-number-level aggregation versus named-stage aggregation.
+- [x] Run strict FAIL/NOT_SUPPORTED-only sensitivity analysis — 14/16 = 87.5%.
+- [x] Run opportunity-adjusted terminal-stage sensitivity analysis — 22/23 = 95.65%; retained as secondary only.
+- [x] Test B-number-level aggregation versus named-stage aggregation — 93.75% any-source / 81.25% all-sources per group.
 - [ ] Recheck every source/action link against authoritative public record before release.
 
 ## Figures
@@ -59,7 +59,7 @@
 - [x] Experimental-handoff boundary.
 - [x] Claim limitations.
 - [ ] Add figure references in final layout.
-- [ ] Final terminology consistency pass.
+- [ ] Final terminology consistency pass — use audit v0.3 / 88.0% consistently.
 - [ ] Final citation verification.
 - [ ] Freeze manuscript v1.0.
 
