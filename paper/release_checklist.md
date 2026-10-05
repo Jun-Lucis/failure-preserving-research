@@ -1,7 +1,7 @@
 # Methodology preprint release checklist
 
 **Target:** first formal Zenodo preprint release  
-**Current manuscript:** `paper/manuscript_v0_10.md`
+**Current manuscript:** `paper/manuscript_v0_11.md`
 
 ## Scientific / methodological freeze
 
@@ -12,10 +12,10 @@
 - [x] Complete initial external literature positioning.
 - [x] Freeze lineage-coding protocol before full early-history expansion.
 - [x] Complete standardized B19-B40 stage-level audit.
-- [x] Add separate early B3-B18 audit with nonstandard-verdict labeling.
+- [x] Add separate early B3-B18 audit with nonstandard-verdict labeling; provenance-corrected v0.2 now current.
 - [x] Add explicit claim-boundary table.
-- [ ] Recover remaining early immutable provenance where practical.
-- [ ] Decide whether the main paper reports early cases in the main text or moves some to supplement.
+- [x] Recover practical early provenance: exact B6 source/reuse artifacts and timestamps recovered; E02 downgraded when exact numerical source could not be traced.
+- [x] Main-text policy fixed: E01/E03/E04/E05 retained; partial-provenance E02 moved to supplement.
 - [x] Freeze current numerical/statistical summary after sensitivity analysis; any later changes require a new audit version.
 
 ## Quantitative audit
