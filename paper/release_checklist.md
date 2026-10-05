@@ -1,7 +1,7 @@
 # Methodology preprint release checklist
 
 **Target:** first formal Zenodo preprint release  
-**Current manuscript:** `paper/manuscript_v0_8.md`
+**Current manuscript:** `paper/manuscript_v0_9.md`
 
 ## Scientific / methodological freeze
 
@@ -16,14 +16,14 @@
 - [x] Add explicit claim-boundary table.
 - [ ] Recover remaining early immutable provenance where practical.
 - [ ] Decide whether the main paper reports early cases in the main text or moves some to supplement.
-- [ ] Freeze final numerical/statistical summary after sensitivity analysis.
+- [x] Freeze current numerical/statistical summary after sensitivity analysis; any later changes require a new audit version.
 
 ## Quantitative audit
 
 - [x] B19-B40 broad source-stage coding.
 - [x] Broad negative/limiting source count: 25.
-- [x] Explicit downstream backward-link count: 21.
-- [x] Descriptive broad reuse fraction: 84%.
+- [x] Explicit downstream backward-link count: 22 (audit v0.3; v0.2 preserved 21).
+- [x] Descriptive broad reuse fraction: 88.0% (audit v0.3; v0.2 preserved 84%).
 - [x] Preserve caveat that this is not a causal productivity estimate.
 - [x] Expanded failure-salvage event ledger.
 - [x] Normalize source-to-action edge table.
@@ -31,6 +31,9 @@
 - [x] Run opportunity-adjusted terminal-stage sensitivity analysis — 22/23 = 95.65%; retained as secondary only.
 - [x] Test B-number-level aggregation versus named-stage aggregation — 93.75% any-source / 81.25% all-sources per group.
 - [x] Add exploratory temporal-development audit — 76.9% earlier epoch vs 100% later epoch; increase not established (Fisher two-sided p≈0.220).
+- [x] Recover exact retained-artifact timestamps for a comparable 14-transition latency subset.
+- [x] Test reuse-latency trend — median 1.20 h, IQR 0.49-2.03 h; no monotonic shortening (Spearman rho≈0.051, p≈0.864).
+- [x] Preserve privacy boundary — publish artifact names/timestamps/provenance class, not private Drive URLs or IDs.
 - [ ] Recheck every source/action link against authoritative public record before release.
 
 ## Figures
@@ -41,6 +44,7 @@
 - [x] Export publication-ready vector versions — SVG v0.1 for core architecture, salvage spiral, relational pivot, and audit sensitivity.
 - [x] Add one quantitative audit figure — `figures/lineage_sensitivity_v0_1.svg`.
 - [x] Add one compact BIG lineage example figure — `figures/big_salvage_lineage_v0_1.svg`.
+- [x] Add supplementary reuse-latency audit figure — `figures/reuse_latency_v0_1.svg`.
 - [ ] Freeze captions and source-data references.
 
 ## Manuscript
@@ -60,7 +64,7 @@
 - [x] Experimental-handoff boundary.
 - [x] Claim limitations.
 - [x] Add figure references in current Markdown manuscript layout; final PDF layout remains pending.
-- [ ] Final terminology consistency pass — use audit v0.3 / 88.0% consistently.
+- [ ] Final terminology consistency pass — use audit v0.3 / 88.0%, temporal audit v0.2, and manuscript v0.9 consistently.
 - [ ] Final citation verification.
 - [ ] Freeze manuscript v1.0.
 
