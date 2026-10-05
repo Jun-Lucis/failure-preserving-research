@@ -1,0 +1,37 @@
+SPDX-License-Identifier: CC-BY-4.0
+
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 Jun Lucis
+
+Unless otherwise noted, the manuscripts, figures, documentation, audit tables,
+research data, and other non-software scholarly content in this repository are
+licensed under the Creative Commons Attribution 4.0 International License
+(CC BY 4.0).
+
+You are free to share and adapt this material for any purpose, including
+commercial use, provided that appropriate credit is given, a link to the
+license is provided, and changes are indicated. No additional legal or
+technological restrictions may be applied that would prevent others from
+exercising the rights granted by the license.
+
+Full license text:
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+License summary:
+https://creativecommons.org/licenses/by/4.0/
+
+Preferred scholarly attribution:
+
+Jun Lucis,
+"Failure-Preserving AI-Assisted Research: A Nested Research Architecture for
+Individual Computational Science",
+v1.0, 2026.
+DOI: 10.5281/zenodo.23171698
+
+Software exception:
+Executable source code under the tools/ directory is licensed separately under
+the MIT License as stated in tools/LICENSE.
+
+Third-party material, if any, remains subject to its original license and is
+not relicensed by this notice unless explicitly stated.
