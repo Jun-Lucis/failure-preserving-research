@@ -138,12 +138,12 @@ The repository is organized around five functions:
 
 - `docs/` — conceptual framework, literature positioning, and quantitative audit notes;
 - `case_studies/BIG/` — audited BIG examples, including early cases, B9 failure retention, B17-B18 readout enrichment, and B34-B35 calibration gating;
-- `evidence/` — source-stage lineage tables, expanded failure-salvage ledger, normalized source-action edges, and the salvage taxonomy;
+- `evidence/` — source-stage lineage tables, expanded failure-salvage ledger, normalized source-action edges, dated reuse-latency tables, and the salvage taxonomy;
 - `protocols/` — predeclaration, failure-retention, experimental-handoff, and frozen lineage-coding rules;
 - `paper/` — versioned manuscript snapshots and Zenodo metadata draft;
-- `figures/` — reproducible diagram sources for the nested cycles, failure-salvage spiral, and relational-time pivot.
+- `figures/` — reproducible diagram sources for the nested cycles, failure-salvage spiral, relational-time pivot, lineage sensitivity, and reuse-latency audit.
 
-Important current audit files include `stage_lineage_B19_B40_v0_3.csv`, `failure_salvage_ledger_v0_2.csv`, `source_action_edges_v0_2.csv`, and `early_verified_lineage_candidates_v0_1.csv`.
+Important current audit files include `stage_lineage_B19_B40_v0_3.csv`, `failure_salvage_ledger_v0_2.csv`, `source_action_edges_v0_2.csv`, `failure_reuse_latency_v0_1.csv`, and `early_verified_lineage_candidates_v0_1.csv`.
 
 ## Relationship to BIG and Zenodo
 
@@ -177,13 +177,17 @@ The current standardized lineage audit covers B19-B40. Under the broad frozen co
 
 Earlier B3-B18 records are being audited separately because formal verdict vocabulary was not yet standardized. Five archive-verified early cases are currently documented, including measurement redesign, computational reuse, model redesign, interpretation correction, and readout-operator enrichment.
 
+A dated-artifact audit now separates reuse prevalence from reuse speed. The later standardized epoch has a higher observed backward-link prevalence (12/12 versus 10/13), but that increase is not statistically established. Among 14 comparable source-to-successor transitions, the median recorded result-to-freeze interval is about 1.20 hours (IQR 0.49-2.03 h), with no evidence of monotonic shortening over time (Spearman rho approximately 0.051, p approximately 0.864).
+
 Key audit files:
 
 - [Frozen lineage coding protocol](protocols/lineage_coding_protocol_v0_1.md)
 - [B19-B40 quantitative lineage audit v0.3](docs/quantitative_lineage_audit_v0_3.md)
 - [B3-B18 early lineage audit](docs/early_lineage_audit_B3_B18_v0_1.md)
-- [Exploratory temporal lineage audit](docs/temporal_lineage_audit_v0_1.md)
+- [Temporal lineage and reuse-latency audit v0.2](docs/temporal_lineage_audit_v0_2.md)
 - [Early verified lineage candidates](evidence/early_verified_lineage_candidates_v0_1.csv)
+- [Failure-reuse latency table](evidence/failure_reuse_latency_v0_1.csv)
+- [Current claim-boundary table](docs/claim_boundary_table_v0_3.md)
 
 ## Working paper
 
@@ -193,7 +197,7 @@ Working subtitle:
 
 **A Longitudinal Case Study from Boundary Information Geometry**
 
-The current manuscript snapshot is [paper/manuscript_v0_8.md](paper/manuscript_v0_8.md).
+The current manuscript snapshot is [paper/manuscript_v0_9.md](paper/manuscript_v0_9.md).
 
 ## Author
 
