@@ -5,7 +5,7 @@
 
 ## What the ledger contains
 
-The v0.2 ledger contains **21 explicit salvage / reuse chains**.
+The v0.2 ledger currently contains **23 explicit salvage / reuse chains**.
 
 These are not 21 independent experiments and they are not the denominator used in the B19-B40 reuse fraction.
 
@@ -29,11 +29,11 @@ These two objects answer different questions and should not be numerically confl
 
 ## Current chain composition
 
-Of the 21 ledger chains:
+Of the 23 ledger chains:
 
 - **5** are early pre-standardization / archive-supported chains;
-- **16** come from the later standardized programme;
-- **21 / 21** retain the parent verdict or parent historical status rather than rewriting it.
+- **18** come from the later standardized programme, including two preclaim calibration-gating chains;
+- **23 / 23** retain the parent verdict or parent historical status rather than rewriting it.
 
 The current salvage-type counts are:
 
@@ -48,13 +48,15 @@ The current salvage-type counts are:
 | DECOMPOSITION | 1 |
 | REPRESENTATIONAL_SALVAGE | 1 |
 | MECHANISM_DIAGNOSIS | 1 |
-| OBSERVABLE_REDESIGN | 1 |
+| OBSERVABLE_REDESIGN | 2 |
 | COMPUTATIONAL_REUSE | 1 |
 | QUESTION_REFORMULATION | 1 |
 | MEASUREMENT_REDESIGN | 1 |
 | INTERPRETATION_CORRECTION | 1 |
 | READOUT_OPERATOR_REDESIGN | 1 |
 | CLAIM_BOUNDARY_RETENTION | 1 |
+| PRECLAIM_GATING | 2 |
+| CALIBRATION_REDESIGN | 1 |
 
 Because a chain can carry more than one salvage tag, type counts can exceed the number of chains.
 
@@ -84,15 +86,13 @@ The current B19-B40 source-stage audit gives:
 21 explicitly reused source stages / 25 negative-or-limiting source stages = 84%
 ```
 
-The v0.2 salvage ledger also happens to contain 21 chains.
+The v0.2 salvage ledger now contains 23 chains. This is a different object from the source-stage denominator.
 
-That numerical equality is accidental.
-
-One source stage can generate multiple chains, and one chain can combine multiple source stages. The manuscript should therefore never infer the 84% figure from the chain ledger.
+One source stage can generate multiple chains, and one chain can combine multiple source stages. The manuscript should therefore never infer a source-stage reuse fraction from the chain count.
 
 ## Next quantitative extension
 
-The next useful table is a **source-to-action bipartite graph** with unique source IDs and unique successor-action IDs.
+A normalized **source-to-action bipartite edge table** is now available as `evidence/source_action_edges_v0_2.csv`. It expands the 23 event chains into 29 source-to-action edges. The next useful analysis is to attach dates and branch identifiers to those edges.
 
 That representation would allow:
 
