@@ -7,7 +7,7 @@
 **Jun Lucis**  
 Independent researcher
 
-**Working manuscript v0.1 — 5 October 2026**
+**Working manuscript v0.2 — 5 October 2026**
 
 ---
 
@@ -47,7 +47,66 @@ The primary case study is Boundary Information Geometry (BIG), a long-running bo
 
 ---
 
-## 2. A three-scale research architecture
+## 2. Relation to prior work
+
+The individual components of this architecture have substantial precedents, and the present contribution should not be described as the first proposal to preserve failures, preregister hypotheses, record provenance, or use persistent memory in AI-assisted research.
+
+### 2.1 AI-assisted scientific work
+
+Recent work already treats AI as an augmentation layer across multiple stages of science. Zhang et al. (2025) review LLM use from hypothesis formation through experimental design and analysis. Agrawal, McHale, and Oettl (2026) describe a "jagged frontier" in AI for science, with returns differing across domains and workflow stages and human judgment remaining an important complement. Hao et al. (2026) report a related caution at ecosystem scale: AI-augmented researchers show substantial individual advantages while the collective topical range of science may narrow.
+
+The present paper therefore does not claim that AI-assisted research itself is new. Its narrower object is the longitudinal organization of a single computational programme in which AI-assisted reasoning, external execution, prospective verdicts, and research-memory reuse are coupled explicitly.
+
+### 2.2 Negative and null results
+
+The scientific value and systematic under-reporting of negative results are long-established concerns. Curry et al. (2025) argue for coordinated mechanisms to surface null and negative findings. Rainford et al. (2026) explicitly frame failed experiments, unstable computational models, parameter studies, and tacit know-how as knowledge-preservation problems whose loss wastes resources and encourages duplicated effort.
+
+Accordingly, the novelty claim here is not that failures can be useful. The more specific question is whether one can reconstruct an auditable chain
+
+```text
+retained negative result
+-> later research action
+-> redesigned question
+-> fresh evaluation
+```
+
+inside a real longitudinal human-AI programme.
+
+### 2.3 Preregistration and Registered Reports
+
+The meso-scale freeze/verdict/redesign cycle is closely aligned with preregistration and Registered Reports. These practices make the distinction between exploratory and confirmatory analyses explicit and reduce outcome-dependent publication. Soderberg et al. (2021) found Registered Reports to be rated more highly than comparison papers on multiple dimensions of rigor and overall quality.
+
+The additional object studied here is what happens **after** a negative frozen test: the parent verdict is retained, later diagnostics are marked as exploratory or calibration work, and any replacement claim receives a new frozen evaluation.
+
+### 2.4 Computational provenance
+
+Workflow systems such as AiiDA demonstrate that complex calculations can be represented with detailed provenance linking inputs, processes, and outputs. That literature largely answers the question "how was this result generated?"
+
+The failure-salvage ledger proposed here adds a research-decision layer:
+
+> How did this result change the next hypothesis, protocol, representation, or claim boundary?
+
+The intended provenance object is therefore not only a graph of computations, but a graph of scientific decisions and retained verdicts.
+
+### 2.5 Persistent memory in AI research systems
+
+The overlap is strongest with a rapidly developing 2026 literature on persistent research memory. EvoScientist records unsuccessful directions in persistent ideation and experimentation memory. Agent-Native Research Artifacts preserve branching exploration and failed traces rather than flattening them into a success-only paper. Sibyl-AutoResearch similarly proposes trial-and-error harnesses that route positive and negative outcomes into later planning and validation.
+
+These developments mean that "persistent research memory" and "preservation of failed trials" should not be claimed as unique contributions of the present work.
+
+The distinctive working contribution is instead the combination of:
+
+1. a **human-led single-researcher longitudinal case study** rather than a primarily autonomous-agent benchmark;
+2. explicit separation of micro AI/execution feedback, meso frozen-verdict redesign, and macro research-memory salvage;
+3. a **non-retroactivity rule** under which successor results do not upgrade parent FAIL/INCONCLUSIVE/INVALID verdicts;
+4. a failure-salvage ledger connecting historical outcomes to later research actions and fresh tests;
+5. an explicit experimental-handoff boundary where missing physical measurements require organized experimental science.
+
+A further caution follows from the agent-memory literature: preserved failure traces can accelerate later work but can also anchor future search too strongly. A failure record must therefore preserve the conditions under which it failed, not convert the failed direction into a permanent prohibition.
+
+---
+
+## 3. A three-scale research architecture
 
 ### 2.1 Micro scale: AI–external computation
 
@@ -145,7 +204,7 @@ A central integrity condition follows immediately. If archived failures are read
 
 ---
 
-## 3. Failure as a reusable research object
+## 4. Failure as a reusable research object
 
 The architecture distinguishes the historical verdict of an experiment from its later scientific usefulness.
 
@@ -174,15 +233,15 @@ The repository accompanying this paper maintains an explicit failure-salvage led
 
 ---
 
-## 4. Longitudinal case study: Boundary Information Geometry
+## 5. Longitudinal case study: Boundary Information Geometry
 
-### 4.1 Status of the case study
+### 5.1 Status of the case study
 
 BIG is a mathematical and numerical research programme organized as a sequence of B-series studies. The programme has progressively adopted prospective freezes, explicit verdict rules, recovery audits, held-out tests, and retained negative outcomes.
 
 This paper uses those records only to study research process. A disciplined process does not establish that BIG is a correct physical theory.
 
-### 4.2 B25: local salvage from a failed predictor
+### 5.2 B25: local salvage from a failed predictor
 
 One of the clearest examples begins with B25.1.
 
@@ -211,7 +270,7 @@ FAIL data -> discovery / redesign
 fresh held-out data -> validation
 ```
 
-### 4.3 B27-B29: failures that enrich the state description
+### 5.3 B27-B29: failures that enrich the state description
 
 B27.2 tested whether a normalized history-induced response form survived connected-to-disconnected reconfiguration under a frozen identity covariance map. The result was
 
@@ -225,7 +284,7 @@ B29 then asked whether retained history/path information added predictive value 
 
 This chain does not end in a success. Its methodological value is that the negative outcomes successively constrained what a sufficient state representation might require.
 
-### 4.4 B32-B36: from failed qualitative laws to structured descriptions
+### 5.4 B32-B36: from failed qualitative laws to structured descriptions
 
 Later phases contain several examples in which a failed simple law leads to a weaker but more structured successor.
 
@@ -250,11 +309,11 @@ simple global law FAIL
 
 ---
 
-## 5. Representational salvage: the relational-time pivot
+## 6. Representational salvage: the relational-time pivot
 
 The strongest macro-scale example in the current case study concerns timing.
 
-### 5.1 Accumulated negative timing results
+### 6.1 Accumulated negative timing results
 
 By B35-B37, several attempts to stabilize absolute peak-timing relations had failed.
 
@@ -268,7 +327,7 @@ and B37.2 returned
 
 The B37.2 failure was localized to an absolute peak-time cross-resolution criterion. Diagnostics showed substantial grid-phase sensitivity of the outer-probe peak timing. An existing-data alignment analysis also showed that the nonoscillatory pulse traces shared a reproducible waveform after temporal rephasing, while relative lag versus intrinsic probe distance was more stable than raw absolute peak time.
 
-### 5.2 Change of observable
+### 6.2 Change of observable
 
 The response was not another retrospective repair of absolute timing. The programme changed the observable.
 
@@ -284,7 +343,7 @@ B38 then extended the relational programme through source/receiver swap tests, t
 
 The strongest retained B38 conclusion remained deliberately finite: measured timing asymmetry in the tested model depends strongly on the joint relation between operator, source, receiver, and readout.
 
-### 5.3 The old failures were not new validation data
+### 6.3 The old failures were not new validation data
 
 The B35-B37 failures and diagnostics helped motivate the new observable. For that reason, they are discovery data for the relational formulation rather than independent confirmation of it.
 
@@ -299,7 +358,7 @@ archived failure pattern
 
 This is the central example of representational salvage in the present paper.
 
-### 5.4 Later failures became more local
+### 6.4 Later failures became more local
 
 The relational programme did not eliminate failure.
 
@@ -326,7 +385,7 @@ That interpretation remains descriptive and should itself be tested more systema
 
 ---
 
-## 6. Individual AI-assisted research and the experimental boundary
+## 7. Individual AI-assisted research and the experimental boundary
 
 The proposed architecture has a clear limit.
 
@@ -352,7 +411,7 @@ The architecture is therefore complementary. AI may allow an individual to arriv
 
 ---
 
-## 7. From personal intuition to public testability
+## 8. From personal intuition to public testability
 
 A broader motivation of the case study is that an individual's intuition or philosophical question can now be carried farther toward explicit quantitative confrontation.
 
@@ -376,7 +435,7 @@ For independent researchers, this may open a new path for ideas that originate o
 
 ---
 
-## 8. Role of model capability and simple external computation
+## 9. Role of model capability and simple external computation
 
 The case study also contains a subjective but practically important observation: later generations of reasoning-capable AI appeared to increase the depth, speed, and continuity of mathematical investigation.
 
@@ -395,7 +454,7 @@ capable reasoning model
 
 ---
 
-## 9. Limitations
+## 10. Limitations
 
 First, the evidence is a single-researcher longitudinal case study. It cannot quantify general productivity gains.
 
@@ -405,13 +464,13 @@ Third, numerical execution constrains the implemented model, not nature. Numeric
 
 Fourth, public-data comparisons are selected by what has already been measured. This can create a severe external-validation bottleneck.
 
-Fifth, the present paper has not yet performed a systematic external literature review against adjacent work in AI-assisted science, open notebooks, preregistration, negative-result publication, computational provenance, or science-of-science. That review is required before a formal scholarly version is finalized.
+Fifth, the adjacent literature is evolving rapidly. Several 2026 agentic-research systems already preserve failed trials or persistent research memory, so novelty claims must be versioned and rechecked close to publication.
 
 Finally, the methodological value of the BIG archive is independent of whether its strongest scientific interpretations survive later external validation.
 
 ---
 
-## 10. Testable methodological predictions
+## 11. Testable methodological predictions
 
 The architecture itself should generate hypotheses that can be tested on future research programmes.
 
@@ -427,7 +486,7 @@ These are not established results. They define a path from the present case stud
 
 ---
 
-## 11. Conclusion
+## 12. Conclusion
 
 The proposed method treats research as a history-bearing dynamic process.
 
@@ -458,12 +517,36 @@ Primary case-study repository:
 
 https://github.com/Jun-Lucis/BIG-theory
 
-A formal methodology-paper Zenodo DOI will be added after external-literature review, final case-study audit, figure preparation, and release packaging.
+A formal methodology-paper Zenodo DOI will be added after final case-study audit, quantitative lineage coding, figure preparation, and release packaging.
 
 ---
 
 ## References
 
-External literature review pending for the formal version.
+1. Zhang, Y., Khan, S. A., Mahmud, A. et al. (2025). *Exploring the role of large language models in the scientific method: from hypothesis to discovery*. npj Artificial Intelligence 1, 14. https://doi.org/10.1038/s44387-025-00019-5
 
-Case-study source materials are linked through the BIG repository and its Zenodo publication map.
+2. Agrawal, A. K., McHale, J. & Oettl, A. (2026). *AI in Science*. NBER Working Paper 34953. https://doi.org/10.3386/w34953
+
+3. Hao, Q., Xu, F., Li, Y. et al. (2026). *Artificial intelligence tools expand scientists’ impact but contract science’s focus*. Nature 649, 1237–1243. https://doi.org/10.1038/s41586-025-09922-y
+
+4. Curry, S., Mercado-Lara, E., Arechavala-Gomeza, V. et al. (2025). *Ending publication bias: A values-based approach to surface null and negative results*. PLOS Biology 23(9), e3003368. https://doi.org/10.1371/journal.pbio.3003368
+
+5. Rainford, P. F., Occhipinti, A., Wang, B. et al. (2026). *Knowledge preservation in the era of big science and AI: strategies for sustainable scientific research*. Nature Communications 17, 4069. https://doi.org/10.1038/s41467-026-72667-3
+
+6. Soderberg, C. K., Errington, T. M., Schiavone, S. R. et al. (2021). *Initial evidence of research quality of registered reports compared with the standard publishing model*. Nature Human Behaviour 5, 990–997. https://doi.org/10.1038/s41562-021-01142-4
+
+7. Center for Open Science. *Registered Reports*. https://www.cos.io/initiatives/registered-reports
+
+8. Center for Open Science. *Preregistration*. https://www.cos.io/initiatives/prereg
+
+9. Hardwicke, T. E. et al. (2022). *Ten simple rules for writing a Registered Report*. PLOS Computational Biology 18(10), e1010571. https://doi.org/10.1371/journal.pcbi.1010571
+
+10. Huber, S. P. et al. (2020). *AiiDA 1.0, a scalable computational infrastructure for automated reproducible workflows and data provenance*. Scientific Data 7, 300. https://doi.org/10.1038/s41597-020-00638-4
+
+11. Lyu, Y., Zhang, X., Yi, X. et al. (2026). *EvoScientist: Towards Multi-Agent Evolving AI Scientists for End-to-End Scientific Discovery*. arXiv:2603.08127. https://arxiv.org/abs/2603.08127
+
+12. Liu, J., Pei, J., Huang, J. et al. (2026). *The Last Human-Written Paper: Agent-Native Research Artifacts*. arXiv:2604.24658. https://arxiv.org/abs/2604.24658
+
+13. Wang, C., Xie, Q., He, W. et al. (2026). *Sibyl-AutoResearch: Autonomous Research Needs Self-Evolving Trial-and-Error Harnesses, Not Paper Generators*. arXiv:2605.22343. https://arxiv.org/abs/2605.22343
+
+Case-study source materials are linked through the BIG repository, its status documents, and its Zenodo publication map.
