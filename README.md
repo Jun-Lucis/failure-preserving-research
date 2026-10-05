@@ -153,6 +153,7 @@ failure-preserving-research/
 │       └── failure_salvage_audit_v0_2.md
 ├── evidence/
 │   ├── failure_salvage_ledger.csv
+│   ├── stage_lineage_B24_B40_v0_1.csv
 │   └── salvage_type_dictionary.md
 ├── protocols/
 │   ├── predeclaration_template.md
@@ -160,6 +161,7 @@ failure-preserving-research/
 │   └── experimental_handoff_template.md
 └── paper/
     ├── manuscript_v0_1.md
+    ├── manuscript_v0_2.md
     └── zenodo_metadata_draft.md
 ```
 
