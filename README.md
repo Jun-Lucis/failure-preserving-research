@@ -189,6 +189,7 @@ Key audit files:
 - [Failure-reuse latency table](evidence/failure_reuse_latency_v0_1.csv)
 - [Early provenance manifest v0.2](evidence/early_provenance_manifest_v0_2.csv)
 - [Current claim-boundary table](docs/claim_boundary_table_v0_3.md)
+- [Reference and adjacent-work verification](docs/reference_verification_v0_1.md)
 
 ## Working paper
 
@@ -198,7 +199,7 @@ Working subtitle:
 
 **A Longitudinal Case Study from Boundary Information Geometry**
 
-The current manuscript snapshot is [paper/manuscript_v0_11.md](paper/manuscript_v0_9.md).
+The current manuscript snapshot is [paper/manuscript_v0_12.md](paper/manuscript_v0_9.md).
 
 ## Author
 
