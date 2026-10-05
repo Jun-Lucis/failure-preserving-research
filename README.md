@@ -143,7 +143,7 @@ The repository is organized around five functions:
 - `paper/` — versioned manuscript snapshots and Zenodo metadata draft;
 - `figures/` — reproducible diagram sources for the nested cycles, failure-salvage spiral, relational-time pivot, lineage sensitivity, and reuse-latency audit.
 
-Important current audit files include `stage_lineage_B19_B40_v0_3.csv`, `failure_salvage_ledger_v0_3.csv`, `source_action_edges_v0_3.csv`, `failure_reuse_latency_v0_1.csv`, and `early_verified_lineage_candidates_v0_1.csv`.
+Important current audit files include `stage_lineage_B19_B40_v0_3.csv`, `failure_salvage_ledger_v0_3.csv`, `source_action_edges_v0_3.csv`, `failure_reuse_latency_v0_1.csv`, and `early_verified_lineage_candidates_v0_2.csv`.
 
 ## Relationship to BIG and Zenodo
 
@@ -190,6 +190,8 @@ Key audit files:
 - [Early provenance manifest v0.2](evidence/early_provenance_manifest_v0_2.csv)
 - [Current claim-boundary table](docs/claim_boundary_table_v0_3.md)
 - [Reference and adjacent-work verification](docs/reference_verification_v0_1.md)
+- [Source/action authority recheck v1.0](docs/source_action_authority_recheck_v1_0.md)
+- [Frozen figure manifest v1.0](figures/figure_manifest_v1_0.md)
 
 ## Working paper
 
@@ -199,7 +201,7 @@ Working subtitle:
 
 **A Longitudinal Case Study from Boundary Information Geometry**
 
-The current manuscript snapshot is [paper/manuscript_v0_13.md](paper/manuscript_v0_9.md).
+The current manuscript release candidate is [paper/manuscript_v1_0_rc1.md](paper/manuscript_v1_0_rc1.md).
 
 ## Author
 
