@@ -194,6 +194,7 @@ Key audit files:
 - [Source/action authority recheck v1.0](docs/source_action_authority_recheck_v1_0.md)
 - [Frozen figure manifest v1.0](figures/figure_manifest_v1_0.md)
 - [v1.0 release package plan](paper/release_package_plan_v1_0.md)
+- [Zenodo metadata v1.0](paper/zenodo_metadata_v1_0.md)
 
 ## Working paper
 
