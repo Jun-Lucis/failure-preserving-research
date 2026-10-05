@@ -1,7 +1,7 @@
 # Methodology preprint release checklist
 
 **Target:** first formal Zenodo preprint release  
-**Current manuscript:** `paper/manuscript_v0_6.md`
+**Current manuscript:** `paper/manuscript_v0_7.md`
 
 ## Scientific / methodological freeze
 
@@ -37,8 +37,8 @@
 - [x] Nested-cycle diagram source.
 - [x] Failure-salvage spiral source.
 - [x] Relational-time pivot diagram source.
-- [ ] Export publication-ready vector versions.
-- [ ] Add one quantitative audit figure.
+- [x] Export publication-ready vector versions — SVG v0.1 for core architecture, salvage spiral, relational pivot, and audit sensitivity.
+- [x] Add one quantitative audit figure — `figures/lineage_sensitivity_v0_1.svg`.
 - [ ] Add one compact BIG lineage example figure.
 - [ ] Freeze captions and source-data references.
 
@@ -58,7 +58,7 @@
 - [x] Preclaim gating section.
 - [x] Experimental-handoff boundary.
 - [x] Claim limitations.
-- [ ] Add figure references in final layout.
+- [x] Add figure references in current Markdown manuscript layout; final PDF layout remains pending.
 - [ ] Final terminology consistency pass — use audit v0.3 / 88.0% consistently.
 - [ ] Final citation verification.
 - [ ] Freeze manuscript v1.0.
