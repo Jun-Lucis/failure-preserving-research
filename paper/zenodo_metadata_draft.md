@@ -1,4 +1,6 @@
-# Zenodo metadata draft
+# Zenodo metadata draft — superseded
+
+> Superseded by `paper/zenodo_metadata_v1_0.md` after publication of v1.0 under DOI 10.5281/zenodo.23171698.
 
 ## Title
 
@@ -61,7 +63,7 @@ The claims are deliberately limited. This is a single-researcher longitudinal ca
 - freeze the final manuscript v1.0 from the current release candidate and retain claim-boundary audit v0.3 or later;
 - preserve `docs/reference_verification_v0_1.md` and `docs/source_action_authority_recheck_v1_0.md` in the release supplement;
 - preserve the frozen figure captions and source-data references in `figures/figure_manifest_v1_0.md`;
-- decide repository and preprint license;
+- license confirmed: CC BY 4.0 for scholarly content; MIT for executable tools;
 - record the exact Git commit / release tag used for the preprint;
 - Zenodo DOI assigned: `10.5281/zenodo.23171698`; retain this DOI consistently in manuscript, repository metadata, and release package;
 - deposit the audit tables and supplementary lineage files with the preprint package.
