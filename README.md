@@ -144,7 +144,7 @@ The repository is organized around five functions:
 - `case_studies/BIG/` — audited BIG examples, including early cases, B9 failure retention, B17-B18 readout enrichment, and B34-B35 calibration gating;
 - `evidence/` — source-stage lineage tables, expanded failure-salvage ledger, normalized source-action edges, dated reuse-latency tables, and the salvage taxonomy;
 - `protocols/` — predeclaration, failure-retention, experimental-handoff, and frozen lineage-coding rules;
-- `paper/` — versioned manuscript snapshots and Zenodo metadata draft;
+- `paper/` — versioned manuscripts, frozen v1.0 sources, release notes, and Zenodo metadata;
 - `figures/` — reproducible diagram sources for the nested cycles, failure-salvage spiral, relational-time pivot, lineage sensitivity, and reuse-latency audit.
 
 Important current audit files include `stage_lineage_B19_B40_v0_3.csv`, `failure_salvage_ledger_v0_3.csv`, `source_action_edges_v0_3.csv`, `failure_reuse_latency_v0_1.csv`, and `early_verified_lineage_candidates_v0_2.csv`.
@@ -204,7 +204,7 @@ Key audit files:
 
 **Failure-Preserving AI-Assisted Research: A Nested Research Architecture for Individual Computational Science**
 
-Working subtitle:
+Subtitle:
 
 **A Longitudinal Case Study from Boundary Information Geometry**
 
