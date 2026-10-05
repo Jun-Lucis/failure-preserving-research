@@ -81,7 +81,8 @@
 - [x] Public case-study notes.
 - [ ] Decide LICENSE.
 - [ ] Tag the exact Git release used for Zenodo.
-- [ ] Create SHA-256 manifest for release files.
+- [x] Release-package builder prepared (`tools/build_release_package.py`).
+- [ ] Create SHA-256 manifest for frozen release files.
 - [ ] Create compact release archive if useful.
 
 ## Zenodo
