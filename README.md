@@ -182,6 +182,7 @@ Key audit files:
 - [Frozen lineage coding protocol](protocols/lineage_coding_protocol_v0_1.md)
 - [B19-B40 quantitative lineage audit v0.3](docs/quantitative_lineage_audit_v0_3.md)
 - [B3-B18 early lineage audit](docs/early_lineage_audit_B3_B18_v0_1.md)
+- [Exploratory temporal lineage audit](docs/temporal_lineage_audit_v0_1.md)
 - [Early verified lineage candidates](evidence/early_verified_lineage_candidates_v0_1.csv)
 
 ## Working paper
@@ -192,7 +193,7 @@ Working subtitle:
 
 **A Longitudinal Case Study from Boundary Information Geometry**
 
-The current manuscript snapshot is [paper/manuscript_v0_7.md](paper/manuscript_v0_7.md).
+The current manuscript snapshot is [paper/manuscript_v0_8.md](paper/manuscript_v0_8.md).
 
 ## Author
 
