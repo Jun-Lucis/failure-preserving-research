@@ -1,7 +1,7 @@
 # Methodology preprint release checklist
 
 **Target:** first formal Zenodo preprint release  
-**Current manuscript:** `paper/manuscript_v0_7.md`
+**Current manuscript:** `paper/manuscript_v0_8.md`
 
 ## Scientific / methodological freeze
 
@@ -30,6 +30,7 @@
 - [x] Run strict FAIL/NOT_SUPPORTED-only sensitivity analysis — 14/16 = 87.5%.
 - [x] Run opportunity-adjusted terminal-stage sensitivity analysis — 22/23 = 95.65%; retained as secondary only.
 - [x] Test B-number-level aggregation versus named-stage aggregation — 93.75% any-source / 81.25% all-sources per group.
+- [x] Add exploratory temporal-development audit — 76.9% earlier epoch vs 100% later epoch; increase not established (Fisher two-sided p≈0.220).
 - [ ] Recheck every source/action link against authoritative public record before release.
 
 ## Figures
@@ -39,7 +40,7 @@
 - [x] Relational-time pivot diagram source.
 - [x] Export publication-ready vector versions — SVG v0.1 for core architecture, salvage spiral, relational pivot, and audit sensitivity.
 - [x] Add one quantitative audit figure — `figures/lineage_sensitivity_v0_1.svg`.
-- [ ] Add one compact BIG lineage example figure.
+- [x] Add one compact BIG lineage example figure — `figures/big_salvage_lineage_v0_1.svg`.
 - [ ] Freeze captions and source-data references.
 
 ## Manuscript
