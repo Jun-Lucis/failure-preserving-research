@@ -159,7 +159,8 @@ BIG papers / data / reproducibility archives (Zenodo)
 
 BIG repository: https://github.com/Jun-Lucis/BIG-theory
 
-The methodology-paper DOI will be added after the first formal Zenodo release.
+Methodology-paper DOI: **10.5281/zenodo.23171698**  
+https://doi.org/10.5281/zenodo.23171698
 
 ## Scope and limitations
 
