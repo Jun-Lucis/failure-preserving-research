@@ -51,6 +51,10 @@ Open Access
 
 Executable helper code under `tools/` is licensed separately under the MIT License; the scholarly release remains CC BY 4.0.
 
+## Author context note
+
+The author conducts this work as an independent researcher outside the scope of his primary employment. His primary professional role is non-technical and unrelated to the research described here. The research used only personally controlled computing resources and accounts together with publicly available data; no employer-controlled computing resources, proprietary data, confidential information, or employer-provided research facilities were used. Human research activity was performed primarily during personal time, while some long-running computations continued unattended during periods when the author was sleeping or otherwise away from active research.
+
 ## Description
 
 This methodological paper proposes a failure-preserving architecture for AI-assisted individual computational research. The framework distinguishes three nested cycles: (1) a micro cycle alternating AI-assisted reasoning with externally executed numerical computation; (2) a meso cycle of predeclaration, frozen testing, retained PASS/FAIL/INCONCLUSIVE/INVALID verdicts, and separately named redesign; and (3) a macro cycle in which archived failures and diagnostics become a research-memory state that can later support constraint reuse, model redesign, or representational change. A fourth component, experimental handoff, marks the point at which public data and simulation are insufficient and new physical measurements require laboratories, organizations, equipment, calibration, and domain expertise.
