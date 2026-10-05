@@ -1,0 +1,52 @@
+name: Build preprint PDFs
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "paper/manuscript_v1_0.md"
+      - "paper/manuscript_v1_0_Japanese_reference.md"
+      - "paper/pdf_style.css"
+      - "figures/**"
+      - ".github/workflows/build-preprint-pdfs.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install PDF toolchain
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc fonts-noto-core fonts-noto-cjk
+          python -m pip install --upgrade pip
+          python -m pip install weasyprint
+
+      - name: Build embedded HTML
+        run: |
+          mkdir -p build
+          pandoc paper/manuscript_v1_0.md             --from=gfm --to=html5 --standalone --embed-resources             --resource-path=. --css=paper/pdf_style.css             --metadata=lang:en             -o build/manuscript_en.html
+
+          pandoc paper/manuscript_v1_0_Japanese_reference.md             --from=gfm --to=html5 --standalone --embed-resources             --resource-path=. --css=paper/pdf_style.css             --metadata=lang:ja             -o build/manuscript_ja.html
+
+      - name: Render PDFs
+        run: |
+          weasyprint build/manuscript_en.html build/Failure_Preserving_AI_Assisted_Research_v1_0.pdf
+          weasyprint build/manuscript_ja.html build/Failure_Preserving_AI_Assisted_Research_Japanese_Reference_v1_0.pdf
+          ls -lh build/*.pdf
+
+      - name: Upload PDF artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: methodology-preprint-pdfs-v1.0
+          path: |
+            build/Failure_Preserving_AI_Assisted_Research_v1_0.pdf
+            build/Failure_Preserving_AI_Assisted_Research_Japanese_Reference_v1_0.pdf
+          if-no-files-found: error
+          retention-days: 30
