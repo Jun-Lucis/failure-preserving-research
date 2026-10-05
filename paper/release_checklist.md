@@ -1,7 +1,7 @@
 # Methodology preprint release checklist
 
 **Target:** first formal Zenodo preprint release  
-**Current manuscript:** `paper/manuscript_v0_9.md`
+**Current manuscript:** `paper/manuscript_v0_10.md`
 
 ## Scientific / methodological freeze
 
@@ -64,7 +64,7 @@
 - [x] Experimental-handoff boundary.
 - [x] Claim limitations.
 - [x] Add figure references in current Markdown manuscript layout; final PDF layout remains pending.
-- [ ] Final terminology consistency pass — use audit v0.3 / 88.0%, temporal audit v0.2, and manuscript v0.9 consistently.
+- [x] Final terminology/claim-boundary consistency pass completed for manuscript v0.10; recheck once more at v1.0 freeze.
 - [ ] Final citation verification.
 - [ ] Freeze manuscript v1.0.
 
