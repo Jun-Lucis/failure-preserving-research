@@ -199,7 +199,7 @@ Working subtitle:
 
 **A Longitudinal Case Study from Boundary Information Geometry**
 
-The current manuscript snapshot is [paper/manuscript_v0_2.md](paper/manuscript_v0_2.md).
+The current manuscript snapshot is [paper/manuscript_v0_3.md](paper/manuscript_v0_3.md).
 
 ## Author
 
