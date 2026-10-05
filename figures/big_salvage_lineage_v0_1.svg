@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="940" viewBox="0 0 1500 940" role="img" aria-labelledby="t d">
+<title id="t">Selected failure-salvage lineages in the BIG case study</title>
+<desc id="d">Selected longitudinal chains showing retained negative or limiting results influencing later diagnostics, redesigned questions, and fresh evaluations. Arrows do not upgrade parent verdicts.</desc>
+<defs>
+  <marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#222"/></marker>
+  <style>
+    .box{fill:#fff;stroke:#222;stroke-width:1.5;rx:8;ry:8}
+    .neg{fill:#f7f7f7;stroke:#222;stroke-width:2;rx:8;ry:8}
+    .diag{fill:#fff;stroke:#666;stroke-width:1.4;stroke-dasharray:5 4;rx:8;ry:8}
+    .txt{font-family:Arial,Helvetica,sans-serif;fill:#111;font-size:14px}
+    .small{font-family:Arial,Helvetica,sans-serif;fill:#444;font-size:12px}
+    .head{font-family:Arial,Helvetica,sans-serif;fill:#111;font-size:23px;font-weight:700}
+    .row{font-family:Arial,Helvetica,sans-serif;fill:#111;font-size:16px;font-weight:700}
+    .line{stroke:#222;stroke-width:1.5;fill:none;marker-end:url(#a)}
+  </style>
+</defs>
+<rect width="1500" height="940" fill="white"/>
+<text x="750" y="38" text-anchor="middle" class="head">Selected failure-salvage lineages in the BIG case study</text>
+<text x="750" y="64" text-anchor="middle" class="small">Arrows indicate downstream research influence / succession, not retrospective upgrading of the parent verdict.</text>
+
+<text x="35" y="125" class="row">External transfer</text>
+<rect x="220" y="92" width="220" height="64" class="neg"/><text x="330" y="118" text-anchor="middle" class="txt"><tspan x="330">B19</tspan><tspan x="330" dy="19">no robust scalar collapse</tspan></text>
+<rect x="500" y="92" width="230" height="64" class="box"/><text x="615" y="118" text-anchor="middle" class="txt"><tspan x="615">B19E-A1</tspan><tspan x="615" dy="19">NULL / INCONCLUSIVE</tspan></text>
+<rect x="790" y="92" width="240" height="64" class="diag"/><text x="910" y="112" text-anchor="middle" class="txt"><tspan x="910">fresh exact-budget audit</tspan><tspan x="910" dy="19">mechanism diagnosis</tspan><tspan x="910" dy="17" class="small">explicitly not an A1 rescue</tspan></text>
+<path d="M440 124 H500" class="line"/><path d="M730 124 H790" class="line"/>
+
+<text x="35" y="245" class="row">Predictor redesign</text>
+<rect x="220" y="212" width="220" height="64" class="neg"/><text x="330" y="238" text-anchor="middle" class="txt"><tspan x="330">B25.1</tspan><tspan x="330" dy="19">constant-density FAIL</tspan></text>
+<rect x="500" y="212" width="230" height="64" class="diag"/><text x="615" y="238" text-anchor="middle" class="txt"><tspan x="615">B25.1R</tspan><tspan x="615" dy="19">coarea diagnostic reuse</tspan></text>
+<rect x="790" y="212" width="240" height="64" class="box"/><text x="910" y="238" text-anchor="middle" class="txt"><tspan x="910">B25.1b</tspan><tspan x="910" dy="19">level-resolved bridge PASS</tspan></text>
+<path d="M440 244 H500" class="line"/><path d="M730 244 H790" class="line"/>
+
+<text x="35" y="365" class="row">State / question enrichment</text>
+<rect x="190" y="332" width="190" height="64" class="neg"/><text x="285" y="358" text-anchor="middle" class="txt"><tspan x="285">B27.2</tspan><tspan x="285" dy="19">covariance FAIL</tspan></text>
+<rect x="430" y="332" width="190" height="64" class="neg"/><text x="525" y="358" text-anchor="middle" class="txt"><tspan x="525">B28.1</tspan><tspan x="525" dy="19">transport FAIL</tspan></text>
+<rect x="670" y="332" width="190" height="64" class="neg"/><text x="765" y="352" text-anchor="middle" class="txt"><tspan x="765">B29-T1</tspan><tspan x="765" dy="19">readability insufficient</tspan><tspan x="765" dy="16" class="small">no held-out verdict opened</tspan></text>
+<rect x="910" y="332" width="220" height="64" class="box"/><text x="1020" y="358" text-anchor="middle" class="txt"><tspan x="1020">B30.1</tspan><tspan x="1020" dy="19">new local question PASS</tspan></text>
+<path d="M380 364 H430" class="line"/><path d="M620 364 H670" class="line"/><path d="M860 364 H910" class="line"/>
+
+<text x="35" y="485" class="row">Dynamic reinterpretation</text>
+<rect x="220" y="452" width="220" height="64" class="neg"/><text x="330" y="478" text-anchor="middle" class="txt"><tspan x="330">B32.1</tspan><tspan x="330" dy="19">dynamic parity-mode FAIL</tspan></text>
+<rect x="500" y="452" width="260" height="64" class="diag"/><text x="630" y="478" text-anchor="middle" class="txt"><tspan x="630">change explanatory variable</tspan><tspan x="630" dy="19">frequency / period dependence</tspan></text>
+<rect x="820" y="452" width="260" height="64" class="box"/><text x="950" y="478" text-anchor="middle" class="txt"><tspan x="950">B33</tspan><tspan x="950" dy="19">node-lifting PASS</tspan></text>
+<path d="M440 484 H500" class="line"/><path d="M760 484 H820" class="line"/>
+
+<text x="35" y="620" class="row">Representational pivot</text>
+<rect x="160" y="570" width="250" height="82" class="neg"/><text x="285" y="592" text-anchor="middle" class="txt"><tspan x="285">B35.1 / B35.2 / B36.1</tspan><tspan x="285" dy="19">absolute timing laws FAIL</tspan><tspan x="285" dy="17" class="small">plus sampling / geometry limits</tspan></text>
+<rect x="460" y="570" width="190" height="82" class="box"/><text x="555" y="601" text-anchor="middle" class="txt"><tspan x="555">B36.2</tspan><tspan x="555" dy="19">decomposition PASS</tspan></text>
+<rect x="700" y="570" width="250" height="82" class="neg"/><text x="825" y="592" text-anchor="middle" class="txt"><tspan x="825">B37.1 / B37.2</tspan><tspan x="825" dy="19">absolute-timing</tspan><tspan x="825" dy="17">representation FAILs</tspan></text>
+<rect x="1000" y="570" width="250" height="82" class="box"/><text x="1125" y="601" text-anchor="middle" class="txt"><tspan x="1125">B38.1</tspan><tspan x="1125" dy="19">relative-lag PASS</tspan></text>
+<path d="M410 611 H460" class="line"/><path d="M650 611 H700" class="line"/><path d="M950 611 H1000" class="line"/>
+
+<text x="35" y="755" class="row">Protocol repair</text>
+<rect x="220" y="722" width="240" height="64" class="neg"/><text x="340" y="748" text-anchor="middle" class="txt"><tspan x="340">B39.3-P1</tspan><tspan x="340" dy="19">covariance FAIL</tspan></text>
+<rect x="520" y="722" width="260" height="64" class="diag"/><text x="650" y="748" text-anchor="middle" class="txt"><tspan x="650">response-independent</tspan><tspan x="650" dy="19">clock-map calibration</tspan></text>
+<rect x="840" y="722" width="250" height="64" class="box"/><text x="965" y="748" text-anchor="middle" class="txt"><tspan x="965">B39.3-P2</tspan><tspan x="965" dy="19">fresh covariance PASS</tspan></text>
+<path d="M460 754 H520" class="line"/><path d="M780 754 H840" class="line"/>
+
+<text x="35" y="875" class="row">Limit localization</text>
+<rect x="190" y="842" width="210" height="64" class="neg"/><text x="295" y="868" text-anchor="middle" class="txt"><tspan x="295">B40.1</tspan><tspan x="295" dy="19">family-transfer FAIL</tspan></text>
+<rect x="450" y="842" width="240" height="64" class="box"/><text x="570" y="868" text-anchor="middle" class="txt"><tspan x="570">fine-grid localization</tspan><tspan x="570" dy="19">PASS</tspan></text>
+<rect x="760" y="842" width="220" height="64" class="neg"/><text x="870" y="868" text-anchor="middle" class="txt"><tspan x="870">B40.2</tspan><tspan x="870" dy="19">reconstruction FAIL</tspan></text>
+<rect x="1030" y="832" width="310" height="84" class="box"/><text x="1185" y="855" text-anchor="middle" class="txt"><tspan x="1185">phase / orientation localization</tspan><tspan x="1185" dy="19">+ fresh transfer / replication</tspan><tspan x="1185" dy="17" class="small">parent FAIL retained</tspan></text>
+<path d="M400 874 H450" class="line"/><path d="M980 874 H1030" class="line"/>
+</svg>
