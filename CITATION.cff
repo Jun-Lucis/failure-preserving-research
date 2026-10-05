@@ -1,10 +1,11 @@
 cff-version: 1.2.0
-message: "If you use this research-methodology repository, please cite the archived methodology paper once a DOI is assigned."
+message: "If you use this research-methodology repository, please cite the archived methodology paper: 10.5281/zenodo.23171698."
 title: "Failure-Preserving AI-Assisted Research"
 type: software
 authors:
   - family-names: Lucis
     given-names: Jun
 repository-code: "https://github.com/Jun-Lucis/failure-preserving-research"
+doi: "10.5281/zenodo.23171698"
 version: "0.1.0"
 date-released: "2026-10-05"
