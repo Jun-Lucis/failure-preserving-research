@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: MIT
 """Build a compact release package and SHA-256 manifest.
 
 Usage:
@@ -20,6 +21,11 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]
 
 STATIC_FILES = [
     "README.md",
+    "CITATION.cff",
+    ".zenodo.json",
+    "LICENSE",
+    "tools/LICENSE",
+    "tools/build_release_package.py",
     "protocols/lineage_coding_protocol_v0_1.md",
     "docs/quantitative_lineage_audit_v0_3.md",
     "docs/temporal_lineage_audit_v0_2.md",
@@ -42,7 +48,8 @@ STATIC_FILES = [
     "figures/big_salvage_lineage_v0_1.svg",
     "figures/relational_time_pivot_v0_1.svg",
     "figures/reuse_latency_v0_1.svg",
-    "paper/zenodo_metadata_draft.md",
+    "paper/manuscript_v1_0_Japanese_reference.md",
+    "paper/zenodo_metadata_v1_0.md",
 ]
 
 
