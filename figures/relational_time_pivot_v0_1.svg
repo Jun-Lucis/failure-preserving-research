@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="1040" viewBox="0 0 1180 1040" role="img" aria-labelledby="t d">
+<title id="t">Relational-time pivot in the BIG case study</title><desc id="d">Repeated absolute-timing failures lead through diagnostics to a relational timing representation and new prospective tests.</desc>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#222"/></marker>
+<style>.b{fill:#fff;stroke:#222;stroke-width:1.5;rx:8}.t{font:15px Arial,Helvetica,sans-serif;fill:#111}.h{font:24px Arial,Helvetica,sans-serif;font-weight:700;fill:#111}.l{stroke:#222;stroke-width:1.6;fill:none;marker-end:url(#a)}.d{stroke:#666;stroke-width:1.4;stroke-dasharray:6 5;fill:none;marker-end:url(#a)}.s{font:12px Arial,Helvetica,sans-serif;fill:#444}</style></defs>
+<rect width="1180" height="1040" fill="white"/>
+<text x="590" y="38" text-anchor="middle" class="h">Representational salvage: absolute timing → relational timing</text>
+<g>
+<rect x="340" y="80" width="500" height="62" class="b"/><text x="590" y="105" text-anchor="middle" class="t"><tspan x="590">B35.1 / B35.2</tspan><tspan x="590" dy="20">linear peak-timing FAILs</tspan></text>
+<rect x="340" y="165" width="500" height="62" class="b"/><text x="590" y="190" text-anchor="middle" class="t"><tspan x="590">B36.1</tspan><tspan x="590" dy="20">geometry-conditioned ordering FAIL</tspan></text>
+<rect x="340" y="250" width="500" height="62" class="b"/><text x="590" y="275" text-anchor="middle" class="t"><tspan x="590">B36.2</tspan><tspan x="590" dy="20">geometry / readout decomposition PASS</tspan></text>
+<rect x="340" y="335" width="500" height="62" class="b"/><text x="590" y="360" text-anchor="middle" class="t"><tspan x="590">B37.1</tspan><tspan x="590" dy="20">intrinsic contour reparameterization FAIL</tspan></text>
+<rect x="340" y="420" width="500" height="62" class="b"/><text x="590" y="445" text-anchor="middle" class="t"><tspan x="590">B37.2</tspan><tspan x="590" dy="20">fixed arc-support timing collapse FAIL</tspan></text>
+<rect x="280" y="515" width="620" height="62" class="b"/><text x="590" y="540" text-anchor="middle" class="t"><tspan x="590">Diagnostics</tspan><tspan x="590" dy="20">absolute peak timing is phase / resolution sensitive</tspan></text>
+<rect x="280" y="600" width="620" height="62" class="b"/><text x="590" y="625" text-anchor="middle" class="t"><tspan x="590">Existing-trace alignment</tspan><tspan x="590" dy="20">relative lag is more stable than raw absolute peak time</tspan></text>
+<rect x="280" y="685" width="620" height="62" class="b"/><text x="590" y="710" text-anchor="middle" class="t"><tspan x="590">Conceptual pivot</tspan><tspan x="590" dy="20">change observable from absolute timing to relational timing</tspan></text>
+<rect x="280" y="770" width="620" height="62" class="b"/><text x="590" y="795" text-anchor="middle" class="t"><tspan x="590">B38.1 fresh freeze</tspan><tspan x="590" dy="20">RELATIVE_BOUNDARY_LAG_GEOMETRY_PASS</tspan></text>
+<rect x="280" y="855" width="620" height="62" class="b"/><text x="590" y="880" text-anchor="middle" class="t"><tspan x="590">B38.2–B40</tspan><tspan x="590" dy="20">source / receiver / operator / clock-map / reconstruction tests</tspan></text>
+<rect x="280" y="940" width="620" height="62" class="b"/><text x="590" y="965" text-anchor="middle" class="t"><tspan x="590">Later FAILs localize</tspan><tspan x="590" dy="20">map / grid / orientation / reconstruction limits</tspan></text>
+</g>
+<g class="l">
+<path d="M590 142 V165"/><path d="M590 227 V250"/><path d="M590 312 V335"/><path d="M590 397 V420"/><path d="M590 482 V515"/><path d="M590 577 V600"/><path d="M590 662 V685"/><path d="M590 747 V770"/><path d="M590 832 V855"/><path d="M590 917 V940"/>
+</g>
+<path d="M840 451 H1030 V716 H900" class="d"/><text x="1020" y="565" text-anchor="end" class="s"><tspan x="1020">old FAILs remain FAILs;</tspan><tspan x="1020" dy="16">they enter redesign as discovery data</tspan></text>
+</svg>
