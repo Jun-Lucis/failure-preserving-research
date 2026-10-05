@@ -62,7 +62,9 @@ mean   = 1.904 h
 range  = 0.205-5.732 h
 ```
 
-The individual intervals are retained in `failure_reuse_latency_v0_1.csv`.
+The individual intervals are retained in `failure_reuse_latency_v0_1.csv`. Seven of the fourteen observed transitions are below one hour.
+
+A supplementary visualization is provided in `figures/reuse_latency_v0_1.svg`.
 
 ## 4. Does reuse become faster over time?
 
