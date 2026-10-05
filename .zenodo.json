@@ -1,0 +1,46 @@
+{
+  "title": "Failure-Preserving AI-Assisted Research: A Nested Research Architecture for Individual Computational Science",
+  "description": "A longitudinal case study from Boundary Information Geometry. This repository documents a failure-preserving architecture for AI-assisted individual computational research, with non-retroactive verdicts, quantitative lineage and latency audits, and an experimental-handoff boundary.",
+  "creators": [
+    {
+      "name": "Lucis, Jun",
+      "affiliation": "Independent researcher"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "keywords": [
+    "AI-assisted research",
+    "computational science",
+    "individual research",
+    "human-AI collaboration",
+    "negative results",
+    "failure preservation",
+    "failure salvage",
+    "research memory",
+    "prospective testing",
+    "preregistration",
+    "research provenance",
+    "scientific workflow",
+    "reproducible research",
+    "experimental handoff",
+    "research methodology",
+    "Boundary Information Geometry"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/Jun-Lucis/failure-preserving-research",
+      "relation": "isSupplementedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/Jun-Lucis/BIG-theory",
+      "relation": "references",
+      "scheme": "url"
+    }
+  ],
+  "version": "1.0",
+  "publication_date": "2026-10-06",
+  "access_right": "open",
+  "upload_type": "publication",
+  "publication_type": "preprint"
+}
