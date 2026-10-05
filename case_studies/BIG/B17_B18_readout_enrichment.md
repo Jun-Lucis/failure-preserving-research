@@ -24,11 +24,14 @@ This supported a local-readability interpretation inside that model.
 
 B18 moved the readout idea into a different reaction-diffusion-inspired inhibitory front.
 
-The B18 manuscript states explicitly:
+The B18 manuscript states explicitly that the read-start local trace is insufficient for organizing later front suppression in this new system.
 
-> read-start local trace is insufficient
+Quantitatively, the B18.0 single-variable fit gave:
 
-for organizing later front suppression in this new system.
+```text
+read-start local load: R^2 = 0.163
+global trace mass:     R^2 = 0.345
+```
 
 Thus the B17-local variable did not simply transfer unchanged.
 
@@ -50,6 +53,17 @@ path-integrated trace exposure much stronger
 B18.2:
 test active-front / interface-core weighted exposure
 ```
+
+The successor sequence improved the single-variable organization of the main suppression observable:
+
+```text
+B18.0 read-start local load:                  R^2 = 0.163
+B18.1 path raw exposure:                      R^2 ~ 0.742
+B18.2 threshold/interface-core path exposure: R^2 = 0.793
+B18.3 threshold raw path exposure:            R^2 = 0.807
+```
+
+The B18.3 scan contained 1296 cases, 972 with nonzero coupling, and the best threshold-path operator retained a slice-minimum R^2 of 0.655.
 
 The integrated B18 interpretation became:
 
