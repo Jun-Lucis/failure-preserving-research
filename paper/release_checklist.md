@@ -1,7 +1,7 @@
 # Methodology preprint release checklist
 
 **Target:** first formal Zenodo preprint release  
-**Current manuscript:** `paper/manuscript_v0_12.md`
+**Current manuscript:** `paper/manuscript_v0_13.md`
 
 ## Scientific / methodological freeze
 
@@ -27,6 +27,7 @@
 - [x] Preserve caveat that this is not a causal productivity estimate.
 - [x] Expanded failure-salvage event ledger.
 - [x] Normalize source-to-action edge table.
+- [x] Provenance-corrected failure-salvage ledger and source-action edge tables to v0.3 after E02/FS17 downgrade.
 - [x] Run strict FAIL/NOT_SUPPORTED-only sensitivity analysis — 14/16 = 87.5%.
 - [x] Run opportunity-adjusted terminal-stage sensitivity analysis — 22/23 = 95.65%; retained as secondary only.
 - [x] Test B-number-level aggregation versus named-stage aggregation — 93.75% any-source / 81.25% all-sources per group.
