@@ -81,24 +81,22 @@ https://doi.org/10.5281/zenodo.23171698
 
 This DOI should be used consistently in the frozen English manuscript, Japanese reference translation, `CITATION.cff`, README, BIG methodology bridge, release manifest, and Zenodo package metadata.
 
-## Items that must wait
+## Publication status
 
-The following should not be finalized until the license and manuscript freeze are complete:
+Zenodo v1.0 is published under DOI:
 
-- `paper/manuscript_v1_0.md`;
-- final PDF;
-- Git tag/release;
-- SHA-256 release manifest;
-- Zenodo DOI is already assigned: `10.5281/zenodo.23171698`;
-- `CITATION.cff` DOI;
-- README / BIG-bridge DOI insertion.
+`10.5281/zenodo.23171698`
 
-## Current release blockers
+https://doi.org/10.5281/zenodo.23171698
 
-At RC2, the scientific/audit content is effectively frozen. Remaining decisions are:
+The scholarly materials are licensed CC BY 4.0. Executable tools are licensed MIT.
+
+## Remaining GitHub/reproducibility tasks
+
+Zenodo publication is complete. The remaining repository-side tasks are optional release-hardening steps:
 
 ```text
-1. license
-2. Git tag + full audit-package SHA-256 manifest/archive
-3. Zenodo upload/publication under DOI `10.5281/zenodo.23171698`
+1. create a Git tag / GitHub release matching v1.0
+2. generate the full public audit-package SHA-256 manifest/archive from the tagged state
+3. verify that future repository releases continue to use CC BY 4.0 for scholarly content and MIT for executable tools
 ```
