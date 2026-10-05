@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="980" viewBox="0 0 1200 980" role="img" aria-labelledby="t d">
+<title id="t">Nested architecture of failure-preserving AI-assisted research</title>
+<desc id="d">Three nested research cycles—micro AI to external computation, meso prospective test and redesign, macro failure salvage and research memory—followed by an experimental handoff.</desc>
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#222"/></marker>
+  <style>
+    .box{fill:#fff;stroke:#222;stroke-width:1.6;rx:8;ry:8}
+    .group{fill:#fafafa;stroke:#777;stroke-width:1.5;stroke-dasharray:6 5;rx:14;ry:14}
+    .txt{font-family:Arial,Helvetica,sans-serif;fill:#111;font-size:16px}
+    .small{font-family:Arial,Helvetica,sans-serif;fill:#333;font-size:13px}
+    .head{font-family:Arial,Helvetica,sans-serif;fill:#111;font-size:20px;font-weight:700}
+    .line{stroke:#222;stroke-width:1.6;fill:none;marker-end:url(#arrow)}
+  </style>
+</defs>
+<rect width="1200" height="980" fill="#fff"/>
+<text x="600" y="38" text-anchor="middle" class="head" font-size="25">Failure-preserving AI-assisted research: nested architecture</text>
+
+<rect x="70" y="75" width="1060" height="210" class="group"/>
+<text x="95" y="105" class="head">Micro cycle — AI ↔ external computation</text>
+<rect x="100" y="145" width="160" height="60" class="box"/><text x="180" y="171" text-anchor="middle" class="txt"><tspan x="180">Question /</tspan><tspan x="180" dy="20">intuition</tspan></text>
+<rect x="315" y="145" width="180" height="60" class="box"/><text x="405" y="181" text-anchor="middle" class="txt">AI-assisted formulation</text>
+<rect x="550" y="145" width="180" height="60" class="box"/><text x="640" y="171" text-anchor="middle" class="txt"><tspan x="640">Equation /</tspan><tspan x="640" dy="20">simple code</tspan></text>
+<rect x="785" y="145" width="190" height="60" class="box"/><text x="880" y="171" text-anchor="middle" class="txt"><tspan x="880">External Python /</tspan><tspan x="880" dy="20">Colab execution</tspan></text>
+<rect x="890" y="225" width="205" height="45" class="box"/><text x="992" y="244" text-anchor="middle" class="small"><tspan x="992">Numerical output /</tspan><tspan x="992" dy="17">contradiction / support</tspan></text>
+<path d="M260 175 H315" class="line"/><path d="M495 175 H550" class="line"/><path d="M730 175 H785" class="line"/><path d="M880 205 V225" class="line"/><path d="M890 248 H405 V205" class="line"/>
+
+<rect x="70" y="320" width="1060" height="220" class="group"/>
+<text x="95" y="350" class="head">Meso cycle — prospective test and redesign</text>
+<rect x="100" y="390" width="140" height="58" class="box"/><text x="170" y="425" text-anchor="middle" class="txt">Hypothesis</text>
+<rect x="285" y="390" width="175" height="58" class="box"/><text x="372" y="415" text-anchor="middle" class="txt"><tspan x="372">Predeclaration /</tspan><tspan x="372" dy="20">freeze</tspan></text>
+<rect x="505" y="390" width="185" height="58" class="box"/><text x="598" y="415" text-anchor="middle" class="txt"><tspan x="598">Claim-bearing</tspan><tspan x="598" dy="20">computation</tspan></text>
+<rect x="735" y="390" width="245" height="58" class="box"/><text x="858" y="415" text-anchor="middle" class="small"><tspan x="858">PASS / FAIL /</tspan><tspan x="858" dy="18">INCONCLUSIVE / INVALID</tspan></text>
+<rect x="805" y="472" width="130" height="45" class="box"/><text x="870" y="500" text-anchor="middle" class="txt">Diagnosis</text>
+<rect x="285" y="472" width="175" height="45" class="box"/><text x="372" y="500" text-anchor="middle" class="txt">New hypothesis</text>
+<path d="M240 419 H285" class="line"/><path d="M460 419 H505" class="line"/><path d="M690 419 H735" class="line"/><path d="M858 448 V472" class="line"/><path d="M805 495 H460" class="line"/><path d="M372 472 V448" class="line"/>
+<path d="M992 270 V305 H170 V390" class="line"/>
+
+<rect x="70" y="575" width="1060" height="220" class="group"/>
+<text x="95" y="605" class="head">Macro cycle — failure salvage and research memory</text>
+<rect x="100" y="645" width="190" height="58" class="box"/><text x="195" y="670" text-anchor="middle" class="txt"><tspan x="195">Retained research</tspan><tspan x="195" dy="20">history R<tspan baseline-shift="sub" font-size="12">t</tspan></tspan></text>
+<rect x="335" y="645" width="200" height="58" class="box"/><text x="435" y="670" text-anchor="middle" class="small"><tspan x="435">Retrieve earlier</tspan><tspan x="435" dy="18">limits / failures</tspan></text>
+<rect x="580" y="645" width="210" height="58" class="box"/><text x="685" y="670" text-anchor="middle" class="small"><tspan x="685">Pattern extraction /</tspan><tspan x="685" dy="18">conceptual pivot</tspan></text>
+<rect x="835" y="645" width="170" height="58" class="box"/><text x="920" y="680" text-anchor="middle" class="txt">Mathematical redesign</text>
+<rect x="815" y="730" width="210" height="45" class="box"/><text x="920" y="758" text-anchor="middle" class="txt">New prospective programme</text>
+<path d="M290 674 H335" class="line"/><path d="M535 674 H580" class="line"/><path d="M790 674 H835" class="line"/><path d="M920 703 V730" class="line"/><path d="M815 752 H195 V703" class="line"/>
+<path d="M858 448 V560 H195 V645" class="line"/>
+
+<rect x="160" y="840" width="880" height="100" class="group"/>
+<text x="185" y="868" class="head">Experimental handoff</text>
+<rect x="200" y="885" width="170" height="40" class="box"/><text x="285" y="910" text-anchor="middle" class="small">Public-data frontier</text>
+<rect x="420" y="885" width="190" height="40" class="box"/><text x="515" y="910" text-anchor="middle" class="small">Frozen measurable prediction</text>
+<rect x="660" y="885" width="210" height="40" class="box"/><text x="765" y="902" text-anchor="middle" class="small"><tspan x="765">Laboratory / organization /</tspan><tspan x="765" dy="16">domain experts</tspan></text>
+<rect x="920" y="885" width="155" height="40" class="box"/><text x="998" y="910" text-anchor="middle" class="small">New physical evidence</text>
+<path d="M370 905 H420" class="line"/><path d="M610 905 H660" class="line"/><path d="M870 905 H920" class="line"/>
+<path d="M920 775 V820 H285 V885" class="line"/>
+</svg>
