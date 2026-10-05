@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this research-methodology repository, please cite the archived methodology paper once a DOI is assigned."
+title: "Failure-Preserving AI-Assisted Research"
+type: software
+authors:
+  - family-names: Lucis
+    given-names: Jun
+repository-code: "https://github.com/Jun-Lucis/failure-preserving-research"
+version: "0.1.0"
+date-released: "2026-10-05"
