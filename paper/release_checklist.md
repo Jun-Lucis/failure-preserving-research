@@ -72,6 +72,14 @@
 - [x] Create Japanese reference translation aligned to v1.0 RC2.
 - [x] Freeze English manuscript v1.0 and aligned Japanese reference translation. License decision remains a repository/release metadata item.
 
+## Post-publication clarification
+
+- [x] Author-independence clarification added to the English v1.0 manuscript and Japanese reference translation.
+- [x] Clarification states that the work is outside the scope of primary employment, uses personally controlled resources/accounts and public data, and does not use employer-controlled resources, proprietary data, confidential information, or employer-provided research facilities.
+- [x] Clarification avoids wording about primary-employment hours; unattended computation is described only as occurring during sleep or other periods away from active research.
+- [x] Scientific claims, numerical results, verdicts, and audit statistics are unchanged.
+- [x] Replacement PDFs rebuilt successfully through the reproducible PDF workflow.
+
 ## PDF production
 
 - [x] Reproducible GitHub Actions PDF workflow completed successfully.
