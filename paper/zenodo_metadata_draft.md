@@ -52,10 +52,9 @@ The claims are deliberately limited. This is a single-researcher longitudinal ca
 
 ## Notes before release
 
-- complete the remaining B3-B18 provenance recovery where public immutable links are missing;
-- freeze the final manuscript version and claim-boundary audit v0.3 or later;
-- preserve `docs/reference_verification_v0_1.md` in the release supplement;
-- freeze final figure captions and source-data references;
+- freeze the final manuscript v1.0 from the current release candidate and retain claim-boundary audit v0.3 or later;
+- preserve `docs/reference_verification_v0_1.md` and `docs/source_action_authority_recheck_v1_0.md` in the release supplement;
+- preserve the frozen figure captions and source-data references in `figures/figure_manifest_v1_0.md`;
 - decide repository and preprint license;
 - record the exact Git commit / release tag used for the preprint;
 - create the Zenodo record and then add the DOI back to both GitHub repositories;
