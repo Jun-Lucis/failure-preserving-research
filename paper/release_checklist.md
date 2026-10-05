@@ -1,7 +1,7 @@
 # Methodology preprint release checklist
 
 **Target:** first formal Zenodo preprint release  
-**Current manuscript:** `paper/manuscript_v0_13.md`
+**Current manuscript:** `paper/manuscript_v1_0_rc1.md`
 
 ## Scientific / methodological freeze
 
@@ -35,7 +35,7 @@
 - [x] Recover exact retained-artifact timestamps for a comparable 14-transition latency subset.
 - [x] Test reuse-latency trend — median 1.20 h, IQR 0.49-2.03 h; no monotonic shortening (Spearman rho≈0.051, p≈0.864).
 - [x] Preserve privacy boundary — publish artifact names/timestamps/provenance class, not private Drive URLs or IDs.
-- [ ] Recheck every source/action link against authoritative public record before release.
+- [x] Recheck source/action links against authoritative public/archival records; see `docs/source_action_authority_recheck_v1_0.md`.
 
 ## Figures
 
@@ -46,7 +46,7 @@
 - [x] Add one quantitative audit figure — `figures/lineage_sensitivity_v0_1.svg`.
 - [x] Add one compact BIG lineage example figure — `figures/big_salvage_lineage_v0_1.svg`.
 - [x] Add supplementary reuse-latency audit figure — `figures/reuse_latency_v0_1.svg`.
-- [ ] Freeze captions and source-data references.
+- [x] Freeze captions and source-data references; see `figures/figure_manifest_v1_0.md`.
 
 ## Manuscript
 
@@ -67,7 +67,8 @@
 - [x] Add figure references in current Markdown manuscript layout; final PDF layout remains pending.
 - [x] Terminology/claim-boundary consistency pass updated through manuscript v0.12; recheck once more at v1.0 freeze.
 - [x] External citation verification completed in `docs/reference_verification_v0_1.md`; corrected Henderson & Chambers attribution and narrowed adjacent-work novelty claim.
-- [ ] Freeze manuscript v1.0.
+- [x] Create manuscript v1.0 release candidate 1.
+- [ ] Freeze manuscript v1.0 after final copyedit and license decision.
 
 ## Repository and reproducibility
 
@@ -85,7 +86,7 @@
 ## Zenodo
 
 - [x] Metadata draft.
-- [ ] Decide final title/subtitle.
+- [x] Final title/subtitle selected for RC1: *Failure-Preserving AI-Assisted Research: A Nested Research Architecture for Individual Computational Science* / *A Longitudinal Case Study from Boundary Information Geometry*.
 - [ ] Decide license.
 - [ ] Create reserved DOI only after manuscript v1.0 is frozen.
 - [ ] Upload manuscript, audit supplement, tables, and release manifest.
