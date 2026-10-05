@@ -1,0 +1,469 @@
+# Failure-Preserving AI-Assisted Research
+
+## A Nested Research Architecture for Individual Computational Science
+
+### A longitudinal case study from Boundary Information Geometry
+
+**Jun Lucis**  
+Independent researcher
+
+**Working manuscript v0.1 — 5 October 2026**
+
+---
+
+## Abstract
+
+Recent reasoning-capable AI systems can substantially expand the amount of mathematical formulation, code generation, debugging, parameter exploration, comparison, and documentation that one individual researcher can carry out. The methodological consequence may be deeper than acceleration alone. When exploratory computation becomes cheaper to generate and when failed runs are systematically retained, the expected future value of failure can change.
+
+This paper proposes a failure-preserving research architecture derived from a longitudinal individual computational research programme. The architecture contains three nested cycles. At the micro scale, AI-assisted reasoning alternates with externally executed numerical computation, so that equations and interpretations are repeatedly exposed to outputs not generated inside the conversational reasoning loop. At the meso scale, hypotheses are prospectively frozen, evaluated, assigned retained verdicts such as PASS, FAIL, INCONCLUSIVE, or INVALID, and replaced only through separately named redesigns. At the macro scale, the accumulated history of failed, limited, and successful experiments becomes a research-memory state that can later be re-read to constrain new hypotheses or support conceptual changes. A fourth component, experimental handoff, marks the boundary at which public data and simulation are insufficient and new measurements require laboratories, organizations, equipment, and domain expertise.
+
+Boundary Information Geometry (BIG) is used as a case study of the process, not as a premise of the methodology. Several documented sequences show retained negative results later contributing to model redesign without retrospective reclassification. One especially clear example is a failed constant-density boundary-functional transfer whose archived profiles motivated a retrospective coarea analysis and a new level-resolved predictor that was then tested prospectively on fresh held-out cases. A later timing sequence illustrates a broader representational pivot: repeated failure and numerical fragility of absolute timing quantities motivated a change toward relative and relational observables, followed by newly frozen prospective tests.
+
+The paper does not claim that AI removes scientific error, that every failure is valuable, or that individual computational work replaces experimental science. Its narrower proposal is that AI-assisted research can increase individual research bandwidth while disciplined failure preservation converts part of the historical search path into a reusable scientific asset.
+
+---
+
+## 1. Introduction
+
+A large fraction of research effort is normally invisible in the final paper. Unsuccessful parameterizations, abandoned observables, numerically invalid experiments, hypotheses that failed cleanly, and intermediate diagnostic calculations are often compressed into a short methods narrative or omitted entirely.
+
+This compression is understandable. Research time is expensive. In organized science, a failed computational branch consumes salaries, shared attention, compute, deadlines, and explanation costs. A rational research group therefore has incentives to restrict exploration and to concentrate resources on paths with a plausible chance of producing useful results.
+
+Independent research has the opposite asymmetry. An individual researcher may have considerable freedom to pursue unlikely paths, but historically lacked the human bandwidth required to implement, debug, scan, inspect, document, and revise a large numerical programme.
+
+Reasoning-capable AI changes this balance. The relevant change is not simply that code can be written faster. A single researcher can potentially coordinate a larger fraction of the research pipeline: formulation, derivation, implementation, debugging, numerical experiment design, data organization, comparison, and writing. In this sense, the effective research bandwidth of the individual can increase even when the underlying compute hardware is ordinary.
+
+This creates a methodological possibility. If the marginal cost of an exploratory computational branch falls while the output of that branch is retained, failure need not be modeled only as lost time. A failed experiment may later serve as a computational asset, a counterexample, a constraint on a hypothesis family, a signal of a missing state variable, or the raw material for a conceptual change.
+
+The central proposal of this paper is therefore:
+
+> AI-assisted computational research can change not only the cost of successful experiments but also the economics and future value of failed experiments.
+
+This is not a claim that failure is intrinsically good. Most failures may remain uninformative. Nor is it a claim that AI-generated reasoning is reliable. The architecture described here depends on repeated exposure of AI-assisted reasoning to externally executed computation, explicit freezing of claim-bearing tests, retention of negative verdicts, and separation between retrospective discovery and prospective validation.
+
+The paper develops the architecture as three nested cycles: a micro AI–external-computation loop, a meso prospective test–redesign loop, and a macro failure-salvage and research-memory loop. It then adds an experimental handoff layer to identify where individual AI-assisted computational research reaches the boundary of available physical evidence.
+
+The primary case study is Boundary Information Geometry (BIG), a long-running boundary-centered mathematical and numerical research programme. The scientific validity of BIG is not assumed here. Indeed, the usefulness of the case study partly comes from the fact that its archive contains PASS, FAIL, INCONCLUSIVE, invalid, diagnostic, and replacement stages rather than a success-only record.
+
+---
+
+## 2. A three-scale research architecture
+
+### 2.1 Micro scale: AI–external computation
+
+The smallest repeated unit is
+
+```text
+question
+-> AI-assisted formulation
+-> equation / code
+-> external execution
+-> numerical output
+-> reconsideration
+-> revised formulation
+```
+
+The key design feature is separation between the reasoning environment and the executable environment.
+
+In the case study, equations and computational proposals generated or refined in conversation were repeatedly implemented and run externally in simple Python/Colab workflows. This does not make the numerical output independent of the researcher, because the researcher and AI still chose the model and code. It does, however, prevent verbal coherence inside the reasoning system from functioning as the final test of its own claims.
+
+A wrong sign, nonexistent crossing, unstable scaling law, unexpected bifurcation, resolution sensitivity, or code failure is returned as an external constraint. The reasoning process must then account for the output rather than simply continue a persuasive internal narrative.
+
+The value of simple code is important. When possible, keeping the mapping
+
+```text
+equation <-> code <-> numerical output
+```
+
+inspectable reduces the number of hidden transformations between the hypothesis and its computational consequence.
+
+The micro loop does not guarantee correctness. Its purpose is narrower: to make sustained internally consistent error harder by repeatedly forcing the current formulation into an executable form.
+
+### 2.2 Meso scale: prospective test and redesign
+
+The second scale operates across complete experiments rather than individual calculations.
+
+```text
+hypothesis
+-> predeclaration / freeze
+-> claim-bearing run
+-> retained verdict
+-> diagnosis
+-> redesigned hypothesis
+-> new freeze
+```
+
+A crucial rule is that the parent verdict remains fixed. If a frozen protocol fails, the result remains a FAIL even if later diagnostics reveal why it failed. If a protocol is numerically invalid, its descriptive outputs may be retained, but they are not promoted to a scientific PASS or FAIL beyond what the predeclared rules allow.
+
+This creates a lineage such as
+
+```text
+P1 -> FAIL
+P1A -> diagnostic only
+P2 -> PASS
+```
+
+rather than rewriting the lineage as
+
+```text
+P1 -> PASS after adjustment
+```
+
+The distinction matters because a successful successor test otherwise risks concealing the degree to which the hypothesis changed after the data were seen.
+
+### 2.3 Macro scale: failure salvage and research memory
+
+The third scale appears only after many experiments have accumulated.
+
+Let
+
+```text
+R_t = {hypotheses, verdicts, parameters, outputs, code, diagnostics}_0:t
+```
+
+represent the retained research state at time `t`.
+
+A conventional simplified picture of research might treat the next question as a function mainly of the current accepted model:
+
+```text
+Q_(t+1) = G(Q_t).
+```
+
+The failure-preserving picture is instead
+
+```text
+Q_(t+1) = G(Q_t, R_t).
+```
+
+The archive is not merely administrative. Earlier failures can become active inputs to later theory construction.
+
+This reuse can occur at several levels. Cached computations can be reused directly. A failed law can remove a region of hypothesis space. A pattern of residuals can reveal that two contributions should be separated. A failed transfer can identify a boundary of applicability. More radically, a cluster of failures can become intelligible only after a change of observable or representation.
+
+The last case is termed **representational salvage** in this paper.
+
+A central integrity condition follows immediately. If archived failures are read in order to construct a new representation, those data are discovery data for the new representation. They cannot simultaneously be counted as independent validation. Claim-bearing support must therefore come from a new frozen or genuinely held-out test.
+
+---
+
+## 3. Failure as a reusable research object
+
+The architecture distinguishes the historical verdict of an experiment from its later scientific usefulness.
+
+A result can satisfy
+
+```text
+historical verdict = FAIL
+later usefulness > 0
+```
+
+without contradiction.
+
+This distinction yields a working salvage taxonomy:
+
+- **computational reuse** — reuse of cached trajectories, profiles, roots, gradients, or scans;
+- **constraint reuse** — a negative result removes part of the search space;
+- **model redesign** — failure shape motivates a new equation;
+- **state enrichment** — failure suggests missing history, geometry, path, or another state variable;
+- **explanatory-variable change** — the same pattern is reconsidered under a different descriptive quantity;
+- **decomposition** — a failed one-law description becomes a structured sum or factorization;
+- **protocol repair** — a design problem is localized and a new protocol is independently frozen;
+- **limit localization** — a broad failure gives way to a narrower surviving structure;
+- **representational salvage** — multiple archived failures become informative after a conceptual pivot.
+
+The repository accompanying this paper maintains an explicit failure-salvage ledger so that these categories can be audited rather than inferred only from retrospective narrative.
+
+---
+
+## 4. Longitudinal case study: Boundary Information Geometry
+
+### 4.1 Status of the case study
+
+BIG is a mathematical and numerical research programme organized as a sequence of B-series studies. The programme has progressively adopted prospective freezes, explicit verdict rules, recovery audits, held-out tests, and retained negative outcomes.
+
+This paper uses those records only to study research process. A disciplined process does not establish that BIG is a correct physical theory.
+
+### 4.2 B25: local salvage from a failed predictor
+
+One of the clearest examples begins with B25.1.
+
+The first A-to-B transfer model used a constant-density relation
+
+```text
+J_pred = sigma_1D P_rep
+```
+
+and received the formal verdict
+
+`AB_CONSTANT_DENSITY_FAIL`.
+
+The failed result was retained. A retrospective analysis then re-read only the archived B25.1 profiles using a coarea-based decomposition. Two systematic effects were identified: a finite boundary band contains a family of level-set perimeters rather than a single representative perimeter, and the two-dimensional profile amplitude differs from the one-dimensional reference amplitude.
+
+That retrospective analysis was explicitly diagnostic. It did not upgrade the B25.1 result.
+
+A replacement level-resolved predictor was then frozen before new trajectories were generated and evaluated on nine new shape/resolution cases. The formal verdict was
+
+`AB_LEVEL_RESOLVED_BRIDGE_PASS`.
+
+This sequence is methodologically important because it cleanly separates:
+
+```text
+FAIL data -> discovery / redesign
+fresh held-out data -> validation
+```
+
+### 4.3 B27-B29: failures that enrich the state description
+
+B27.2 tested whether a normalized history-induced response form survived connected-to-disconnected reconfiguration under a frozen identity covariance map. The result was
+
+`RECONFIGURATION_COVARIANCE_FAIL`.
+
+B28 replaced the identity-covariance hypothesis with a geometry-only component-resolved split transport. That also failed prospectively:
+
+`GEOMETRY_CONDITIONED_LINEAGE_TRANSPORT_FAIL`.
+
+B29 then asked whether retained history/path information added predictive value beyond instantaneous geometry. The programme closed before held-out evaluation because the inherited readability gates were not satisfied uniformly.
+
+This chain does not end in a success. Its methodological value is that the negative outcomes successively constrained what a sufficient state representation might require.
+
+### 4.4 B32-B36: from failed qualitative laws to structured descriptions
+
+Later phases contain several examples in which a failed simple law leads to a weaker but more structured successor.
+
+B32.1 retained
+
+`DYNAMIC_COMPLEX_PARITY_MODE_FAIL`.
+
+B33 reframed the observed behavior in terms of frequency- and period-dependent transverse node lifting and obtained prospective PASS verdicts.
+
+Similarly, B35.1 and B35.2 rejected an approximately linear distance-ordered peak-timing law, and B36.1 rejected a stronger geometry-conditioned timing ordering. B36.2 then tested a decomposition into geometry and readout-sampling contributions on a fresh grid and obtained
+
+`ADDITIVE_GEOMETRY_SAMPLING_DECOMPOSITION_PASS`.
+
+These sequences illustrate a recurring pattern:
+
+```text
+simple global law FAIL
+-> retain structure of the failure
+-> decompose or change explanatory variable
+-> test a narrower structured claim
+```
+
+---
+
+## 5. Representational salvage: the relational-time pivot
+
+The strongest macro-scale example in the current case study concerns timing.
+
+### 5.1 Accumulated negative timing results
+
+By B35-B37, several attempts to stabilize absolute peak-timing relations had failed.
+
+B37.1 returned
+
+`INTRINSIC_CONTOUR_REPARAMETERIZATION_FAIL`
+
+and B37.2 returned
+
+`FIXED_ARC_SUPPORT_TIMING_COLLAPSE_FAIL`.
+
+The B37.2 failure was localized to an absolute peak-time cross-resolution criterion. Diagnostics showed substantial grid-phase sensitivity of the outer-probe peak timing. An existing-data alignment analysis also showed that the nonoscillatory pulse traces shared a reproducible waveform after temporal rephasing, while relative lag versus intrinsic probe distance was more stable than raw absolute peak time.
+
+### 5.2 Change of observable
+
+The response was not another retrospective repair of absolute timing. The programme changed the observable.
+
+The new question became approximately:
+
+> Which timing structures remain stable when timing is expressed relationally among probes, sources, receivers, operators, and readouts?
+
+B38.1 prospectively tested relative boundary lag on fresh cases and returned
+
+`RELATIVE_BOUNDARY_LAG_GEOMETRY_PASS`.
+
+B38 then extended the relational programme through source/receiver swap tests, tangent-operator analysis, prospective operator-to-response prediction, gamma interventions, and weighted-dual readout tests.
+
+The strongest retained B38 conclusion remained deliberately finite: measured timing asymmetry in the tested model depends strongly on the joint relation between operator, source, receiver, and readout.
+
+### 5.3 The old failures were not new validation data
+
+The B35-B37 failures and diagnostics helped motivate the new observable. For that reason, they are discovery data for the relational formulation rather than independent confirmation of it.
+
+Their role can be written as
+
+```text
+archived failure pattern
+-> conceptual pivot
+-> equation / observable refinement
+-> new prospective tests
+```
+
+This is the central example of representational salvage in the present paper.
+
+### 5.4 Later failures became more local
+
+The relational programme did not eliminate failure.
+
+B39.3-P1 retained
+
+`INTEGRATION_LEVEL_REPARAMETERIZATION_COVARIANCE_FAIL`.
+
+Diagnostics localized the failing conditions, a response-independent clock-map calibration was performed, and a new P2 protocol was frozen before fresh trajectories. P2 then returned
+
+`INTRINSIC_CLOCK_MAP_INTEGRATION_COVARIANCE_PASS`.
+
+The P2 result did not upgrade P1.
+
+B40 again retained two formal parent failures:
+
+- `CLOCK_MAP_FAMILY_TRANSFER_FAIL`
+- `TARGET_EXCLUDED_RELATIONAL_RECONSTRUCTION_FAIL`
+
+Later frozen tests localized these failures and identified narrower finite-grid transformation behavior.
+
+The case-study interpretation is therefore not that the conceptual pivot ended failure. A more defensible observation is that later failures increasingly identified limits of coordinates, transfer rules, resolution, or reconstruction rather than repeatedly collapsing the entire research direction.
+
+That interpretation remains descriptive and should itself be tested more systematically.
+
+---
+
+## 6. Individual AI-assisted research and the experimental boundary
+
+The proposed architecture has a clear limit.
+
+AI-assisted individual research can support extensive theoretical development and public-data comparison, but it cannot generate measurements that require unavailable instruments or controlled physical interventions.
+
+In the BIG programme, public databases or published measurements allow partial comparison with domains including nuclear fission and material-interface phenomena. Such data can be extremely useful, but they were collected for other scientific purposes. The exact parameter combination needed to distinguish a new model may simply not exist.
+
+The physical frontier therefore has a different workflow:
+
+```text
+individual + AI
+-> broad computational search
+-> eliminate weak hypotheses
+-> preserve failed alternatives
+-> formulate measurable prediction
+-> identify missing experiment
+-> handoff to experimental group
+```
+
+The contribution of a laboratory or organization is not merely compute. It includes sample preparation, apparatus, calibration, safety, intervention, measurement design, replication, and tacit domain knowledge.
+
+The architecture is therefore complementary. AI may allow an individual to arrive at the experimental frontier with a more specific package than an informal idea: equations, code, discarded alternatives, sensitivity maps, a frozen prediction, and an explicit measurement request.
+
+---
+
+## 7. From personal intuition to public testability
+
+A broader motivation of the case study is that an individual's intuition or philosophical question can now be carried farther toward explicit quantitative confrontation.
+
+The scientifically relevant transformation is:
+
+```text
+intuition
+-> operational definition
+-> mathematics
+-> executable computation
+-> prediction
+-> possible failure
+-> comparison with nature
+```
+
+The important endpoint is not preservation of the original intuition. It is exposure to possible failure.
+
+This does not imply that philosophy becomes natural science merely by being formalized. It means that the practical cost of converting an informal idea into something testable may be falling.
+
+For independent researchers, this may open a new path for ideas that originate outside established research programmes. The corresponding obligation is unusually strong claim discipline: the more cheaply hypotheses can be generated, the more important it becomes to preserve negative outcomes, freeze tests, distinguish discovery from validation, and identify the point at which real-world measurement is missing.
+
+---
+
+## 8. Role of model capability and simple external computation
+
+The case study also contains a subjective but practically important observation: later generations of reasoning-capable AI appeared to increase the depth, speed, and continuity of mathematical investigation.
+
+This paper does not treat that perception as controlled evidence. A rigorous comparison would require matched tasks, fixed compute budgets, blinded evaluation, and reproducible model access.
+
+Nevertheless, the observation suggests a testable hypothesis for future work: there may be capability thresholds at which AI changes not merely the speed of isolated tasks but the feasible length and complexity of a continuous individual research programme.
+
+The external Python loop may be essential to that effect. A more capable reasoning model can generate more sophisticated hypotheses, but without frequent external execution it can also generate more sophisticated coherent errors. The combined architecture is therefore not "stronger AI alone" but
+
+```text
+capable reasoning model
++ simple executable computation
++ persistent feedback
++ retained research memory
+```
+
+---
+
+## 9. Limitations
+
+First, the evidence is a single-researcher longitudinal case study. It cannot quantify general productivity gains.
+
+Second, research-history salvage is vulnerable to retrospective overfitting. The separation between discovery data and fresh prospective tests is therefore essential but not sufficient to remove all researcher degrees of freedom.
+
+Third, numerical execution constrains the implemented model, not nature. Numerical stability, coding correctness, discretization, and interpretation remain separate questions.
+
+Fourth, public-data comparisons are selected by what has already been measured. This can create a severe external-validation bottleneck.
+
+Fifth, the present paper has not yet performed a systematic external literature review against adjacent work in AI-assisted science, open notebooks, preregistration, negative-result publication, computational provenance, or science-of-science. That review is required before a formal scholarly version is finalized.
+
+Finally, the methodological value of the BIG archive is independent of whether its strongest scientific interpretations survive later external validation.
+
+---
+
+## 10. Testable methodological predictions
+
+The architecture itself should generate hypotheses that can be tested on future research programmes.
+
+Possible predictions include:
+
+1. the fraction of new stages that explicitly reuse archived negative or inconclusive results should rise as a programme matures;
+2. failure salvage should reduce repeated exploration of already-disfavored hypothesis regions;
+3. programmes with immutable verdict ledgers should show fewer retrospective claim upgrades than unstructured AI-assisted workflows;
+4. separating AI reasoning from external executable checks should reduce the duration of some classes of coherent implementation error;
+5. experimental handoff packages containing explicit failed alternatives and falsification criteria should be easier for external laboratories to evaluate than idea-only proposals.
+
+These are not established results. They define a path from the present case study toward comparative research.
+
+---
+
+## 11. Conclusion
+
+The proposed method treats research as a history-bearing dynamic process.
+
+At the micro scale, AI-assisted reasoning is repeatedly exposed to external numerical execution. At the meso scale, hypotheses are frozen, tested, assigned persistent verdicts, and redesigned without rewriting history. At the macro scale, the accumulated archive becomes research memory: failures can be retrieved, reinterpreted, and used to construct new questions.
+
+The resulting view of failure is neither celebratory nor dismissive.
+
+```text
+FAIL != success
+FAIL != necessarily waste
+```
+
+A failed result remains a failed test of its original hypothesis. Its future value depends on whether it contains reusable computational, structural, diagnostic, or representational information.
+
+The final boundary remains physical. When the decisive measurement does not exist, simulation and public-data analysis cannot manufacture it. At that point the appropriate next step is experimental handoff.
+
+The main methodological claim is therefore modest but consequential: AI-assisted individual research may make a larger region of the hypothesis space economically explorable, while failure preservation allows part of that exploration history to remain scientifically active.
+
+---
+
+## Data, code, and audit trail
+
+Methodology repository:
+
+https://github.com/Jun-Lucis/failure-preserving-research
+
+Primary case-study repository:
+
+https://github.com/Jun-Lucis/BIG-theory
+
+A formal methodology-paper Zenodo DOI will be added after external-literature review, final case-study audit, figure preparation, and release packaging.
+
+---
+
+## References
+
+External literature review pending for the formal version.
+
+Case-study source materials are linked through the BIG repository and its Zenodo publication map.
