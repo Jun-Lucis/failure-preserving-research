@@ -7,5 +7,5 @@ authors:
     given-names: Jun
 repository-code: "https://github.com/Jun-Lucis/failure-preserving-research"
 doi: "10.5281/zenodo.23171698"
-version: "0.1.0"
-date-released: "2026-10-05"
+version: "1.0.0"
+date-released: "2026-10-06"
