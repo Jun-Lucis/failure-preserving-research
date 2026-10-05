@@ -16,6 +16,12 @@ Jun Lucis
 
 Preprint / working paper
 
+## DOI
+
+10.5281/zenodo.23171698
+
+https://doi.org/10.5281/zenodo.23171698
+
 ## Description
 
 This methodological paper proposes a failure-preserving architecture for AI-assisted individual computational research. The framework distinguishes three nested cycles: (1) a micro cycle alternating AI-assisted reasoning with externally executed numerical computation; (2) a meso cycle of predeclaration, frozen testing, retained PASS/FAIL/INCONCLUSIVE/INVALID verdicts, and separately named redesign; and (3) a macro cycle in which archived failures and diagnostics become a research-memory state that can later support constraint reuse, model redesign, or representational change.
@@ -57,5 +63,5 @@ The claims are deliberately limited. This is a single-researcher longitudinal ca
 - preserve the frozen figure captions and source-data references in `figures/figure_manifest_v1_0.md`;
 - decide repository and preprint license;
 - record the exact Git commit / release tag used for the preprint;
-- create the Zenodo record and then add the DOI back to both GitHub repositories;
+- Zenodo DOI assigned: `10.5281/zenodo.23171698`; retain this DOI consistently in manuscript, repository metadata, and release package;
 - deposit the audit tables and supplementary lineage files with the preprint package.
