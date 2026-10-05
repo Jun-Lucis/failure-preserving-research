@@ -191,6 +191,19 @@ Public databases can support substantial external comparison, but they cannot su
 
 The method should be judged separately from the scientific theory used as its primary case study.
 
+## Audit status
+
+The current standardized lineage audit covers B19-B40. Under the broad frozen coding dictionary, 25 negative or limiting source stages have been identified and 21 have an explicit downstream backward link (84%). This is a descriptive statistic for the coded BIG interval, not a general estimate of the value of failure.
+
+Earlier B3-B18 records are being audited separately because formal verdict vocabulary was not yet standardized. Five archive-verified early cases are currently documented, including measurement redesign, computational reuse, model redesign, interpretation correction, and readout-operator enrichment.
+
+Key audit files:
+
+- [Frozen lineage coding protocol](protocols/lineage_coding_protocol_v0_1.md)
+- [B19-B40 quantitative lineage audit](docs/quantitative_lineage_audit_v0_2.md)
+- [B3-B18 early lineage audit](docs/early_lineage_audit_B3_B18_v0_1.md)
+- [Early verified lineage candidates](evidence/early_verified_lineage_candidates_v0_1.csv)
+
 ## Working paper
 
 **Failure-Preserving AI-Assisted Research: A Nested Research Architecture for Individual Computational Science**
@@ -199,7 +212,7 @@ Working subtitle:
 
 **A Longitudinal Case Study from Boundary Information Geometry**
 
-The current manuscript snapshot is [paper/manuscript_v0_3.md](paper/manuscript_v0_3.md).
+The current manuscript snapshot is [paper/manuscript_v0_4.md](paper/manuscript_v0_4.md).
 
 ## Author
 
