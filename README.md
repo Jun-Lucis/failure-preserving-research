@@ -203,9 +203,9 @@ Working subtitle:
 
 **A Longitudinal Case Study from Boundary Information Geometry**
 
-The current manuscript release candidate is [paper/manuscript_v1_0_rc2.md](paper/manuscript_v1_0_rc2.md).
+The frozen English manuscript is [paper/manuscript_v1_0.md](paper/manuscript_v1_0.md).
 
-Japanese reference translation: [paper/manuscript_v1_0_rc2_Japanese_reference.md](paper/manuscript_v1_0_rc2_Japanese_reference.md).
+Japanese reference translation: [paper/manuscript_v1_0_Japanese_reference.md](paper/manuscript_v1_0_Japanese_reference.md).
 
 ## Author
 
