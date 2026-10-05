@@ -91,10 +91,10 @@
 - [x] Metadata draft.
 - [x] Final title/subtitle selected for RC1: *Failure-Preserving AI-Assisted Research: A Nested Research Architecture for Individual Computational Science* / *A Longitudinal Case Study from Boundary Information Geometry*.
 - [ ] Decide license.
-- [ ] Create reserved DOI only after manuscript v1.0 is frozen.
+- [x] Zenodo DOI assigned: `10.5281/zenodo.23171698`.
 - [ ] Upload manuscript, audit supplement, tables, and release manifest.
 - [ ] Add methodology GitHub and BIG GitHub as related resources.
 - [ ] Publish.
-- [ ] Insert DOI into `CITATION.cff`.
-- [ ] Insert DOI into methodology README.
+- [x] Insert DOI into `CITATION.cff`.
+- [x] Insert DOI into methodology README.
 - [ ] Insert DOI into BIG methodology bridge.
