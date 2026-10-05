@@ -143,7 +143,7 @@ The repository is organized around five functions:
 - `paper/` — versioned manuscript snapshots and Zenodo metadata draft;
 - `figures/` — reproducible diagram sources for the nested cycles, failure-salvage spiral, relational-time pivot, lineage sensitivity, and reuse-latency audit.
 
-Important current audit files include `stage_lineage_B19_B40_v0_3.csv`, `failure_salvage_ledger_v0_2.csv`, `source_action_edges_v0_2.csv`, `failure_reuse_latency_v0_1.csv`, and `early_verified_lineage_candidates_v0_1.csv`.
+Important current audit files include `stage_lineage_B19_B40_v0_3.csv`, `failure_salvage_ledger_v0_3.csv`, `source_action_edges_v0_3.csv`, `failure_reuse_latency_v0_1.csv`, and `early_verified_lineage_candidates_v0_1.csv`.
 
 ## Relationship to BIG and Zenodo
 
@@ -199,7 +199,7 @@ Working subtitle:
 
 **A Longitudinal Case Study from Boundary Information Geometry**
 
-The current manuscript snapshot is [paper/manuscript_v0_12.md](paper/manuscript_v0_9.md).
+The current manuscript snapshot is [paper/manuscript_v0_13.md](paper/manuscript_v0_9.md).
 
 ## Author
 
