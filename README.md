@@ -2,6 +2,10 @@
 
 **A research-methodology project for individual computational science**
 
+**Published preprint v1.0 — 6 October 2026**  
+DOI: **10.5281/zenodo.23171698**  
+https://doi.org/10.5281/zenodo.23171698
+
 This repository develops and documents a research architecture that emerged during a long-running individual mathematical and numerical research programme.
 
 Its central proposition is:
@@ -196,7 +200,7 @@ Key audit files:
 - [v1.0 release package plan](paper/release_package_plan_v1_0.md)
 - [Zenodo metadata v1.0](paper/zenodo_metadata_v1_0.md)
 
-## Working paper
+## Published preprint
 
 **Failure-Preserving AI-Assisted Research: A Nested Research Architecture for Individual Computational Science**
 
@@ -207,6 +211,14 @@ Working subtitle:
 The frozen English manuscript is [paper/manuscript_v1_0.md](paper/manuscript_v1_0.md).
 
 Japanese reference translation: [paper/manuscript_v1_0_Japanese_reference.md](paper/manuscript_v1_0_Japanese_reference.md).
+
+## License
+
+Unless otherwise noted, manuscripts, figures, documentation, audit tables, research data, and other non-software scholarly content are licensed under **Creative Commons Attribution 4.0 International (CC BY 4.0)**.
+
+Executable source code under `tools/` is licensed separately under the **MIT License**.
+
+See [LICENSE](LICENSE) and [tools/LICENSE](tools/LICENSE).
 
 ## Author
 
