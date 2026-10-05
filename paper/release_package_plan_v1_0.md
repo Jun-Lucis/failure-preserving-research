@@ -24,6 +24,7 @@ The package should contain:
 
 ```text
 paper/manuscript_v1_0.md                 # after final freeze
+paper/manuscript_v1_0_Japanese_reference.md # Japanese reference translation after final freeze
 paper/zenodo_metadata_draft.md
 protocols/lineage_coding_protocol_v0_1.md
 
