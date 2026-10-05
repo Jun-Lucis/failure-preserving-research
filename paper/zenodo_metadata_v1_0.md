@@ -31,6 +31,10 @@ Publication -> Preprint
 
 1.0
 
+## Publication status
+
+Published on Zenodo
+
 ## Language
 
 English
@@ -43,11 +47,9 @@ Open Access
 
 ## License
 
-**Recommended:** Creative Commons Attribution 4.0 International (CC BY 4.0)
+**Confirmed:** Creative Commons Attribution 4.0 International (CC BY 4.0)
 
-**Status:** author confirmation still required before the final Zenodo publish action.
-
-For the repository's executable helper code, MIT can be added separately if desired; that does not require changing the paper's CC BY 4.0 license.
+Executable helper code under `tools/` is licensed separately under the MIT License; the scholarly release remains CC BY 4.0.
 
 ## Description
 
