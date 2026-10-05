@@ -1,7 +1,7 @@
 # Methodology preprint release checklist
 
 **Target:** first formal Zenodo preprint release  
-**Current manuscript:** `paper/manuscript_v1_0_rc1.md`
+**Current manuscript:** `paper/manuscript_v1_0_rc2.md`
 
 ## Scientific / methodological freeze
 
@@ -68,6 +68,7 @@
 - [x] Terminology/claim-boundary consistency pass updated through manuscript v0.12; recheck once more at v1.0 freeze.
 - [x] External citation verification completed in `docs/reference_verification_v0_1.md`; corrected Henderson & Chambers attribution and narrowed adjacent-work novelty claim.
 - [x] Create manuscript v1.0 release candidate 1.
+- [x] Create manuscript v1.0 release candidate 2 after final provenance copyedit.
 - [ ] Freeze manuscript v1.0 after final copyedit and license decision.
 
 ## Repository and reproducibility
