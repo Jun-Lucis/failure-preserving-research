@@ -73,6 +73,14 @@ python tools/build_release_package.py \
   --label v1_0
 ```
 
+## Assigned DOI
+
+`10.5281/zenodo.23171698`
+
+https://doi.org/10.5281/zenodo.23171698
+
+This DOI should be used consistently in the frozen English manuscript, Japanese reference translation, `CITATION.cff`, README, BIG methodology bridge, release manifest, and Zenodo package metadata.
+
 ## Items that must wait
 
 The following should not be finalized until the license and manuscript freeze are complete:
@@ -81,7 +89,7 @@ The following should not be finalized until the license and manuscript freeze ar
 - final PDF;
 - Git tag/release;
 - SHA-256 release manifest;
-- Zenodo reserved DOI;
+- Zenodo DOI is already assigned: `10.5281/zenodo.23171698`;
 - `CITATION.cff` DOI;
 - README / BIG-bridge DOI insertion.
 
@@ -94,5 +102,5 @@ At RC2, the scientific/audit content is effectively frozen. Remaining decisions 
 2. final copyedit approval / v1.0 freeze
 3. PDF production
 4. tag + SHA-256 package
-5. Zenodo reservation and publication
+5. Zenodo publication under DOI `10.5281/zenodo.23171698`
 ```
