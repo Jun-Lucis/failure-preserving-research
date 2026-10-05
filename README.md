@@ -134,36 +134,16 @@ The claim is not that philosophy becomes physics by being formalized. The narrow
 
 ## Repository map
 
-```text
-failure-preserving-research/
-├── README.md
-├── CITATION.cff
-├── docs/
-│   ├── conceptual_framework.md
-│   ├── three_nested_cycles.md
-│   ├── experimental_handoff.md
-│   ├── limitations.md
-│   ├── philosophical_scope.md
-│   └── literature_context.md
-├── case_studies/
-│   └── BIG/
-│       ├── README.md
-│       ├── failure_salvage_map.md
-│       ├── relational_time_pivot.md
-│       └── failure_salvage_audit_v0_2.md
-├── evidence/
-│   ├── failure_salvage_ledger.csv
-│   ├── stage_lineage_B24_B40_v0_1.csv
-│   └── salvage_type_dictionary.md
-├── protocols/
-│   ├── predeclaration_template.md
-│   ├── failure_retention_protocol.md
-│   └── experimental_handoff_template.md
-└── paper/
-    ├── manuscript_v0_1.md
-    ├── manuscript_v0_2.md
-    └── zenodo_metadata_draft.md
-```
+The repository is organized around five functions:
+
+- `docs/` — conceptual framework, literature positioning, and quantitative audit notes;
+- `case_studies/BIG/` — audited BIG examples, including early cases, B9 failure retention, B17-B18 readout enrichment, and B34-B35 calibration gating;
+- `evidence/` — source-stage lineage tables, expanded failure-salvage ledger, normalized source-action edges, and the salvage taxonomy;
+- `protocols/` — predeclaration, failure-retention, experimental-handoff, and frozen lineage-coding rules;
+- `paper/` — versioned manuscript snapshots and Zenodo metadata draft;
+- `figures/` — reproducible diagram sources for the nested cycles, failure-salvage spiral, and relational-time pivot.
+
+Important current audit files include `stage_lineage_B19_B40_v0_2.csv`, `failure_salvage_ledger_v0_2.csv`, `source_action_edges_v0_1.csv`, and `early_verified_lineage_candidates_v0_1.csv`.
 
 ## Relationship to BIG and Zenodo
 
