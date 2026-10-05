@@ -28,7 +28,7 @@ An exploratory temporal audit separates reuse prevalence from reuse latency. Exp
 
 The paper also defines an experimental-handoff boundary: public-data comparison and simulation can take an independent researcher far, but new physical measurements still require laboratories, organizations, equipment, calibration, and domain expertise. The framework therefore proposes a complementarity between high-bandwidth individual AI-assisted exploration and organized experimental science.
 
-The claims are deliberately limited. This is a single-researcher longitudinal case study, not a controlled productivity trial. It does not claim that AI eliminates scientific error, that every failure has future value, or that computational research replaces experimental validation.
+The claims are deliberately limited. This is a single-researcher longitudinal case study, not a controlled productivity trial. It does not claim that AI eliminates scientific error, that every failure has future value, or that computational research replaces experimental validation. It also does not claim invention of persistent research memory, failure-trace preservation, or generic trial-to-later-action conversion; closely related 2026 systems already implement those ideas. The contribution is the audited human-led longitudinal instantiation, explicit non-retroactivity of verdicts, nested architecture, quantitative lineage/latency audit, and experimental-handoff boundary.
 
 ## Keywords
 
@@ -54,6 +54,7 @@ The claims are deliberately limited. This is a single-researcher longitudinal ca
 
 - complete the remaining B3-B18 provenance recovery where public immutable links are missing;
 - freeze the final manuscript version and claim-boundary audit v0.3 or later;
+- preserve `docs/reference_verification_v0_1.md` in the release supplement;
 - freeze final figure captions and source-data references;
 - decide repository and preprint license;
 - record the exact Git commit / release tag used for the preprint;
