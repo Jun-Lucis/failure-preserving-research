@@ -143,12 +143,14 @@ failure-preserving-research/
 │   ├── three_nested_cycles.md
 │   ├── experimental_handoff.md
 │   ├── limitations.md
-│   └── philosophical_scope.md
+│   ├── philosophical_scope.md
+│   └── literature_context.md
 ├── case_studies/
 │   └── BIG/
 │       ├── README.md
 │       ├── failure_salvage_map.md
-│       └── relational_time_pivot.md
+│       ├── relational_time_pivot.md
+│       └── failure_salvage_audit_v0_2.md
 ├── evidence/
 │   ├── failure_salvage_ledger.csv
 │   └── salvage_type_dictionary.md
@@ -195,7 +197,7 @@ Working subtitle:
 
 **A Longitudinal Case Study from Boundary Information Geometry**
 
-The manuscript is being developed openly in [paper/manuscript_v0_1.md](paper/manuscript_v0_1.md).
+The current manuscript snapshot is [paper/manuscript_v0_2.md](paper/manuscript_v0_2.md).
 
 ## Author
 
