@@ -9,6 +9,8 @@ Independent researcher
 
 **Manuscript v1.0 release candidate 2 — 6 October 2026**
 
+**DOI:** 10.5281/zenodo.23171698
+
 ---
 
 ## Abstract
@@ -712,7 +714,7 @@ Primary case-study repository:
 
 https://github.com/Jun-Lucis/BIG-theory
 
-A formal methodology-paper Zenodo DOI will be added after final release-candidate review, license choice, release packaging, and Zenodo publication.
+Reserved / assigned Zenodo DOI for this methodology paper: **10.5281/zenodo.23171698** (https://doi.org/10.5281/zenodo.23171698).
 
 Current audit artifacts include:
 
