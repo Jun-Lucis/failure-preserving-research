@@ -1,7 +1,7 @@
 # Methodology preprint release checklist
 
 **Target:** first formal Zenodo preprint release  
-**Current manuscript:** `paper/manuscript_v1_0_rc2.md`
+**Current manuscript:** `paper/manuscript_v1_0.md`
 
 ## Scientific / methodological freeze
 
@@ -70,7 +70,7 @@
 - [x] Create manuscript v1.0 release candidate 1.
 - [x] Create manuscript v1.0 release candidate 2 after final provenance copyedit.
 - [x] Create Japanese reference translation aligned to v1.0 RC2.
-- [ ] Freeze manuscript v1.0 after final copyedit and license decision.
+- [x] Freeze English manuscript v1.0 and aligned Japanese reference translation. License decision remains a repository/release metadata item.
 
 ## Repository and reproducibility
 
@@ -84,7 +84,7 @@
 - [ ] Tag the exact Git release used for Zenodo.
 - [x] Release-package builder prepared (`tools/build_release_package.py`).
 - [ ] Create SHA-256 manifest for frozen release files.
-- [ ] Create compact release archive if useful.
+- [ ] Create compact release archive after PDF build and license decision.
 
 ## Zenodo
 
@@ -92,7 +92,7 @@
 - [x] Final title/subtitle selected for RC1: *Failure-Preserving AI-Assisted Research: A Nested Research Architecture for Individual Computational Science* / *A Longitudinal Case Study from Boundary Information Geometry*.
 - [ ] Decide license.
 - [x] Zenodo DOI assigned: `10.5281/zenodo.23171698`.
-- [ ] Upload manuscript, audit supplement, tables, and release manifest.
+- [ ] Upload frozen English/Japanese PDFs, manuscript sources, audit supplement, tables, and release manifest.
 - [ ] Add methodology GitHub and BIG GitHub as related resources.
 - [ ] Publish.
 - [x] Insert DOI into `CITATION.cff`.
