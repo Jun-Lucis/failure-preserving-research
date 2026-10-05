@@ -97,4 +97,4 @@
 - [ ] Publish.
 - [x] Insert DOI into `CITATION.cff`.
 - [x] Insert DOI into methodology README.
-- [ ] Insert DOI into BIG methodology bridge.
+- [x] Insert DOI into BIG methodology bridge.
