@@ -9,6 +9,8 @@
 
 **日本語参考翻訳版 — 英語原稿 v1.0 release candidate 2 に対応 — 2026年10月6日**
 
+**DOI:** 10.5281/zenodo.23171698
+
 > **翻訳上の位置づけ**  
 > 本文書は英語原稿 `paper/manuscript_v1_0_rc2.md` の日本語参考翻訳である。科学的主張、数値、判定語、引用、監査上の意味について英語版と差異が生じた場合は、英語版を正文とする。PASS / FAIL / INCONCLUSIVE / INVALID などの正式判定文字列、および各B-seriesの固有 verdict 名は原文のまま保持する。
 
@@ -756,7 +758,7 @@ Primary case-study repository:
 
 https://github.com/Jun-Lucis/BIG-theory
 
-formal methodology-paper Zenodo DOIは、final release-candidate review、license選択、release packaging、Zenodo publicationの後に追加する。
+本方法論論文のZenodo DOIは **10.5281/zenodo.23171698** である（https://doi.org/10.5281/zenodo.23171698）。
 
 現在の主要audit artifactは次を含む。
 
