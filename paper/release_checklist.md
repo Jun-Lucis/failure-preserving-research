@@ -99,11 +99,11 @@
 
 - [x] Metadata draft.
 - [x] Zenodo-ready metadata v1.0 prepared in `paper/zenodo_metadata_v1_0.md`.
-- [x] Final title/subtitle selected for RC1: *Failure-Preserving AI-Assisted Research: A Nested Research Architecture for Individual Computational Science* / *A Longitudinal Case Study from Boundary Information Geometry*.
+- [x] Final v1.0 title/subtitle: *Failure-Preserving AI-Assisted Research: A Nested Research Architecture for Individual Computational Science* / *A Longitudinal Case Study from Boundary Information Geometry*.
 - [x] Zenodo license confirmed: CC BY 4.0.
 - [x] Zenodo DOI assigned: `10.5281/zenodo.23171698`.
-- [ ] Upload frozen English/Japanese PDFs, manuscript sources, audit supplement, tables, and release manifest to Zenodo.
-- [ ] Add methodology GitHub and BIG GitHub as related resources.
+- [ ] Verify the published Zenodo file inventory includes the intended frozen English/Japanese PDFs and supplementary audit materials.
+- [ ] Verify the published Zenodo metadata lists the methodology GitHub and BIG GitHub as related resources.
 - [x] Publish on Zenodo under DOI `10.5281/zenodo.23171698`.
 - [x] Insert DOI into `CITATION.cff`.
 - [x] Insert DOI into methodology README.
