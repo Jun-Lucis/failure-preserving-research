@@ -204,6 +204,8 @@ Working subtitle:
 
 The current manuscript release candidate is [paper/manuscript_v1_0_rc2.md](paper/manuscript_v1_0_rc2.md).
 
+Japanese reference translation: [paper/manuscript_v1_0_rc2_Japanese_reference.md](paper/manuscript_v1_0_rc2_Japanese_reference.md).
+
 ## Author
 
 **Jun Lucis**  
