@@ -175,7 +175,7 @@ The method should be judged separately from the scientific theory used as its pr
 
 The current standardized lineage audit covers B19-B40. Under the broad frozen coding dictionary, 25 negative or limiting source stages have been identified and 22 have an explicit downstream backward link (88.0%). Audit v0.2 reported 84%; v0.3 recovered one explicit B29-T1-to-B30 lineage edge from the integrated source record while preserving the old audit version. The percentage is a descriptive statistic for the coded BIG interval, not a general estimate of the value of failure.
 
-Earlier B3-B18 records are being audited separately because formal verdict vocabulary was not yet standardized. Five archive-verified early cases are currently documented, including measurement redesign, computational reuse, model redesign, interpretation correction, and readout-operator enrichment.
+Earlier B3-B18 records are being audited separately because formal verdict vocabulary was not yet standardized. Four source-backed early cases are now used in the manuscript (computational reuse, model redesign, interpretation correction, and readout-operator enrichment). A fifth measurement-redesign candidate remains in the supplement because its previously quoted exact numerical pair could not be recovered from an immutable source.
 
 A dated-artifact audit now separates reuse prevalence from reuse speed. The later standardized epoch has a higher observed backward-link prevalence (12/12 versus 10/13), but that increase is not statistically established. Among 14 comparable source-to-successor transitions, the median recorded result-to-freeze interval is about 1.20 hours (IQR 0.49-2.03 h), with no evidence of monotonic shortening over time (Spearman rho approximately 0.051, p approximately 0.864).
 
@@ -183,10 +183,11 @@ Key audit files:
 
 - [Frozen lineage coding protocol](protocols/lineage_coding_protocol_v0_1.md)
 - [B19-B40 quantitative lineage audit v0.3](docs/quantitative_lineage_audit_v0_3.md)
-- [B3-B18 early lineage audit](docs/early_lineage_audit_B3_B18_v0_1.md)
+- [B3-B18 early lineage audit v0.2](docs/early_lineage_audit_B3_B18_v0_2.md)
 - [Temporal lineage and reuse-latency audit v0.2](docs/temporal_lineage_audit_v0_2.md)
-- [Early verified lineage candidates](evidence/early_verified_lineage_candidates_v0_1.csv)
+- [Early verified lineage candidates v0.2](evidence/early_verified_lineage_candidates_v0_2.csv)
 - [Failure-reuse latency table](evidence/failure_reuse_latency_v0_1.csv)
+- [Early provenance manifest v0.2](evidence/early_provenance_manifest_v0_2.csv)
 - [Current claim-boundary table](docs/claim_boundary_table_v0_3.md)
 
 ## Working paper
@@ -197,7 +198,7 @@ Working subtitle:
 
 **A Longitudinal Case Study from Boundary Information Geometry**
 
-The current manuscript snapshot is [paper/manuscript_v0_10.md](paper/manuscript_v0_9.md).
+The current manuscript snapshot is [paper/manuscript_v0_11.md](paper/manuscript_v0_9.md).
 
 ## Author
 
