@@ -1,0 +1,135 @@
+@page {
+  size: A4;
+  margin: 19mm 18mm 20mm 18mm;
+  @bottom-center {
+    content: counter(page);
+    font-family: "Noto Sans", "Noto Sans CJK JP", sans-serif;
+    font-size: 9pt;
+    color: #666;
+  }
+}
+
+html {
+  font-size: 10.5pt;
+}
+
+body {
+  font-family: "Noto Serif", "Noto Serif CJK JP", serif;
+  line-height: 1.58;
+  color: #171717;
+  max-width: none;
+  margin: 0;
+  hyphens: auto;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Noto Sans", "Noto Sans CJK JP", sans-serif;
+  color: #111;
+  page-break-after: avoid;
+  break-after: avoid;
+}
+
+h1 {
+  font-size: 24pt;
+  text-align: center;
+  margin-top: 22mm;
+  margin-bottom: 8mm;
+}
+
+h2 {
+  font-size: 16pt;
+  margin-top: 8mm;
+  padding-bottom: 1.5mm;
+  border-bottom: 0.5pt solid #aaa;
+}
+
+h3 {
+  font-size: 12.5pt;
+  margin-top: 6mm;
+}
+
+p {
+  orphans: 3;
+  widows: 3;
+  text-align: justify;
+}
+
+blockquote {
+  margin: 5mm 8mm;
+  padding: 3mm 5mm;
+  border-left: 2.5pt solid #777;
+  background: #f7f7f7;
+}
+
+code, pre {
+  font-family: "Noto Sans Mono", "Noto Sans CJK JP", monospace;
+}
+
+pre {
+  white-space: pre-wrap;
+  background: #f5f5f5;
+  border: 0.5pt solid #ddd;
+  border-radius: 3pt;
+  padding: 3mm;
+  font-size: 9pt;
+  line-height: 1.38;
+  break-inside: avoid;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 4mm 0 6mm 0;
+  font-size: 9.3pt;
+}
+
+th, td {
+  border: 0.5pt solid #bbb;
+  padding: 2mm 2.5mm;
+  vertical-align: top;
+}
+
+th {
+  background: #f2f2f2;
+  font-family: "Noto Sans", "Noto Sans CJK JP", sans-serif;
+}
+
+img, svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 5mm auto 2mm auto;
+  break-inside: avoid;
+}
+
+hr {
+  border: 0;
+  border-top: 0.5pt solid #aaa;
+  margin: 8mm 0;
+}
+
+a {
+  color: #222;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+
+ul, ol {
+  padding-left: 7mm;
+}
+
+li {
+  margin-bottom: 1.2mm;
+}
+
+body > p:first-of-type,
+body > h1 + h2,
+body > h2 + h3 {
+  page-break-after: avoid;
+}
+
+@media print {
+  a[href^="http"]::after {
+    content: "";
+  }
+}
