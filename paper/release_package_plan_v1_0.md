@@ -99,7 +99,6 @@ At RC2, the scientific/audit content is effectively frozen. Remaining decisions 
 
 ```text
 1. license
-2. PDF production / visual QA
-3. tag + SHA-256 package
-4. Zenodo publication under DOI `10.5281/zenodo.23171698`
+2. Git tag + full audit-package SHA-256 manifest/archive
+3. Zenodo upload/publication under DOI `10.5281/zenodo.23171698`
 ```
