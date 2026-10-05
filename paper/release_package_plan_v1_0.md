@@ -1,7 +1,7 @@
-# Release package plan — v1.0 RC2
+# Release package plan — v1.0
 
 **Date:** 6 October 2026  
-**Current manuscript:** `paper/manuscript_v1_0_rc2.md`
+**Current manuscript:** `paper/manuscript_v1_0.md`
 
 ## Release package principle
 
@@ -99,8 +99,7 @@ At RC2, the scientific/audit content is effectively frozen. Remaining decisions 
 
 ```text
 1. license
-2. final copyedit approval / v1.0 freeze
-3. PDF production
-4. tag + SHA-256 package
-5. Zenodo publication under DOI `10.5281/zenodo.23171698`
+2. PDF production / visual QA
+3. tag + SHA-256 package
+4. Zenodo publication under DOI `10.5281/zenodo.23171698`
 ```
