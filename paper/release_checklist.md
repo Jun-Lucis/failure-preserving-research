@@ -74,17 +74,17 @@
 
 ## Post-publication clarification
 
-- [x] Author-independence clarification added to the English v1.0 manuscript and Japanese reference translation.
-- [x] Clarification states that the work is outside the scope of primary employment, uses personally controlled resources/accounts and public data, and does not use employer-controlled resources, proprietary data, confidential information, or employer-provided research facilities.
+- [x] Concise author-independence clarification added to the English v1.0 manuscript and Japanese reference translation.
+- [x] Clarification states that the work is outside the scope of primary employment, uses personally controlled computing resources and public data, and does not use employer-controlled resources, proprietary data, confidential information, employer-provided research infrastructure, or employer research funding.
 - [x] Clarification avoids wording about primary-employment hours; unattended computation is described only as occurring during sleep or other periods away from active research.
 - [x] Scientific claims, numerical results, verdicts, and audit statistics are unchanged.
-- [x] Replacement PDFs rebuilt successfully through the reproducible PDF workflow.
+- [x] Replacement PDFs rebuilt successfully through the reproducible PDF workflow after shortening the author note.
 
 ## PDF production
 
 - [x] Reproducible GitHub Actions PDF workflow completed successfully.
-- [x] English v1.0 PDF: 27 A4 pages.
-- [x] Japanese reference v1.0 PDF: 28 A4 pages.
+- [x] English v1.0 PDF: 28 A4 pages after the post-publication author-note clarification.
+- [x] Japanese reference v1.0 PDF: 28 A4 pages after the post-publication author-note clarification.
 - [x] Visual QA of both PDFs completed from rendered page images; no clipping, broken glyphs, or figure overflow observed.
 
 ## Repository and reproducibility
