@@ -13,12 +13,11 @@ Independent researcher
 
 ## Author note
 
-The author conducts this work as an independent researcher outside the scope of his primary employment. His primary professional role is non-technical and unrelated to the research described here. This research is not part of the author's employer's research activities and was conducted without employer-provided research funding, research supervision, or institutional research infrastructure. The research used only personally controlled resources and accounts, including a personal computer, personal Google/Colab, GitHub, ChatGPT, and cloud accounts, together with publicly available data. No employer-controlled computing resources, proprietary data, confidential information, or employer-provided research facilities were used. Human research activity was performed primarily during personal time, while some long-running computations continued unattended during periods when the author was sleeping or otherwise away from active research.
+The author conducted this work independently and outside the scope of his primary employment, which is non-technical and unrelated to the research described here. The research was carried out in a personal capacity using personally controlled computing resources and publicly available data. No employer-controlled computing resources, proprietary data, confidential information, employer-provided research infrastructure, or employer research funding were used.
 
 *Post-publication clarification: this author note was added after the initial Zenodo publication. No scientific claims, numerical results, verdicts, or audit statistics were changed.*
 
 ---
-
 
 ## Abstract
 
