@@ -116,6 +116,26 @@ AB_LEVEL_RESOLVED_BRIDGE_PASS
 
 A later timing sequence shows a broader representational pivot from fragile absolute timing hypotheses toward relative and relational timing, followed by fresh prospective tests.
 
+## New worked example — BIG-B41 (2026-10-09)
+
+The B41 preprint adds a concrete **failure-preserving, separately prospective** numerical-research case that follows the v1.0 methodology paper. It is recorded as an **additional case study**, not silently folded into the frozen B19–B40 lineage-audit statistics.
+
+```text
+B41-P1  first-order trajectory-response transfer: PASS
+   -> B41-P2  scalar second-order remainder transfer: formal FAIL (retained)
+   -> post-hoc localization: two anti-aligned tangent/acceleration families
+   -> freeze a new no-fit sign-sensitive full second-order predictor
+   -> B41-P3  48 fresh targets: formal PASS, gates A–E
+```
+
+In P2, only **19/24** sign-averaged cells met the predeclared 20% quantitative mismatch criterion; the primary frozen scalar remainder claim therefore **failed**. The missing orientation information was diagnosed *after the P2 outcomes were opened*. Rather than regrading P2, the new full second-order predictor was frozen before a different set of **48 P3 target PDE integrations**. In that fresh prospective test, **24/24** cells met the 20% mismatch criterion, rho was **0.997391**, and tangent transfer improved pooled weighted RMSE by **93.1041%** relative to the nearest anchor.
+
+The P3 scalar comparator was also strong: **24/24** cells met the criterion with slightly lower median mismatch. The conclusion is bounded — this is an example of productive **hypothesis redesign and fresh evaluation**, not a demonstration that the full predictor is universally superior, nor a general efficiency evaluation of AI-assisted research.
+
+- **Worked case study:** [case_studies/BIG/B41_P2_failure_to_P3_fresh_test.md](case_studies/BIG/B41_P2_failure_to_P3_fresh_test.md)
+- **Scientific primary record:** https://doi.org/10.5281/zenodo.23249677
+- **BIG research status:** https://github.com/Jun-Lucis/BIG-theory/blob/main/docs/research_status_update_B41.md
+
 ## Personal intuition and public testability
 
 This project also explores a broader but deliberately limited observation:
@@ -141,7 +161,7 @@ The claim is not that philosophy becomes physics by being formalized. The narrow
 The repository is organized around five functions:
 
 - `docs/` — conceptual framework, literature positioning, and quantitative audit notes;
-- `case_studies/BIG/` — audited BIG examples, including early cases, B9 failure retention, B17-B18 readout enrichment, and B34-B35 calibration gating;
+- `case_studies/BIG/` — audited BIG examples, including early cases, B9 failure retention, B17-B18 readout enrichment, B34-B35 calibration gating, and the supplementary B41 P2-FAIL-to-P3-fresh-PASS case;
 - `evidence/` — source-stage lineage tables, expanded failure-salvage ledger, normalized source-action edges, dated reuse-latency tables, and the salvage taxonomy;
 - `protocols/` — predeclaration, failure-retention, experimental-handoff, and frozen lineage-coding rules;
 - `paper/` — versioned manuscripts, frozen v1.0 sources, release notes, and Zenodo metadata;
