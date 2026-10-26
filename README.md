@@ -156,6 +156,14 @@ intuition
 
 The claim is not that philosophy becomes physics by being formalized. The narrower claim is that the cost of transforming an intuition into something that can fail publicly and quantitatively may be falling.
 
+## New discussion proposal — Research-Orientation Continuity (26 October 2026)
+
+A separately versioned, **untested** design proposal asks what a long-horizon AI research system should preserve beyond confirmed results and failure records: **how and why the selection of research questions evolves** through human judgments, AI suggestions, and evidence.
+
+- [Beyond Failure Preservation: Research-Orientation Continuity for Long-Horizon Human–AI Science — proposal v0.1](docs/research_orientation_continuity_proposal_v0_1.md)
+- Scope: authoritative research-state handoff, revisable research orientation, provenance-linked decision events, independent scientific verdicts, consent and participant rights, and prospective tests on independent research projects.
+- **Evidence boundary:** BIG motivates the design; it is **not** the independent evaluation set. No claim of improved productivity or validated personal-preference inference is made.
+
 ## Repository map
 
 The repository is organized around five functions:
